@@ -1,0 +1,10 @@
+weak: PMD 0.087287 +/- 0.000803; paired vs random -0.000075 +/- 0.001113
+trace: PMD 0.087287 +/- 0.000803; paired vs random -0.000075 +/- 0.001113
+full: PMD 0.087287 +/- 0.000803; paired vs random -0.000075 +/- 0.001113
+weak_noRC: PMD 0.087287 +/- 0.000803; paired vs random -0.000075 +/- 0.001113
+full_noRC: PMD 0.087287 +/- 0.000803; paired vs random -0.000075 +/- 0.001113
+random: PMD 0.087362 +/- 0.000749; paired vs random 0.000000 +/- 0.000000
+fixed: PMD 0.087400 +/- 0.000538; paired vs random 0.000038 +/- 0.001114
+maxangle: PMD 0.088072 +/- 0.000975; paired vs random 0.000710 +/- 0.000860
+diversity: PMD 0.087959 +/- 0.002034; paired vs random 0.000597 +/- 0.002218
+uncertainty: PMD 0.104528 +/- 0.042468; paired vs random 0.017167 +/- 0.042303

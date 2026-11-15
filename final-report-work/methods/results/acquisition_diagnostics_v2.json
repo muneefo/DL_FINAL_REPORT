@@ -1,0 +1,306 @@
+{
+  "checkpoint_equalities": [
+    {
+      "seed": 0,
+      "rule": "trace",
+      "identical_queries": true,
+      "identical_models": true
+    },
+    {
+      "seed": 0,
+      "rule": "full",
+      "identical_queries": true,
+      "identical_models": true
+    },
+    {
+      "seed": 0,
+      "rule": "weak_noRC",
+      "identical_queries": true,
+      "identical_models": true
+    },
+    {
+      "seed": 0,
+      "rule": "full_noRC",
+      "identical_queries": true,
+      "identical_models": true
+    },
+    {
+      "seed": 1,
+      "rule": "trace",
+      "identical_queries": true,
+      "identical_models": true
+    },
+    {
+      "seed": 1,
+      "rule": "full",
+      "identical_queries": true,
+      "identical_models": true
+    },
+    {
+      "seed": 1,
+      "rule": "weak_noRC",
+      "identical_queries": true,
+      "identical_models": true
+    },
+    {
+      "seed": 1,
+      "rule": "full_noRC",
+      "identical_queries": true,
+      "identical_models": true
+    },
+    {
+      "seed": 2,
+      "rule": "trace",
+      "identical_queries": true,
+      "identical_models": true
+    },
+    {
+      "seed": 2,
+      "rule": "full",
+      "identical_queries": true,
+      "identical_models": true
+    },
+    {
+      "seed": 2,
+      "rule": "weak_noRC",
+      "identical_queries": true,
+      "identical_models": true
+    },
+    {
+      "seed": 2,
+      "rule": "full_noRC",
+      "identical_queries": true,
+      "identical_models": true
+    },
+    {
+      "seed": 3,
+      "rule": "trace",
+      "identical_queries": true,
+      "identical_models": true
+    },
+    {
+      "seed": 3,
+      "rule": "full",
+      "identical_queries": true,
+      "identical_models": true
+    },
+    {
+      "seed": 3,
+      "rule": "weak_noRC",
+      "identical_queries": true,
+      "identical_models": true
+    },
+    {
+      "seed": 3,
+      "rule": "full_noRC",
+      "identical_queries": true,
+      "identical_models": true
+    },
+    {
+      "seed": 4,
+      "rule": "trace",
+      "identical_queries": true,
+      "identical_models": true
+    },
+    {
+      "seed": 4,
+      "rule": "full",
+      "identical_queries": true,
+      "identical_models": true
+    },
+    {
+      "seed": 4,
+      "rule": "weak_noRC",
+      "identical_queries": true,
+      "identical_models": true
+    },
+    {
+      "seed": 4,
+      "rule": "full_noRC",
+      "identical_queries": true,
+      "identical_models": true
+    }
+  ],
+  "matrix_diagnostics": [
+    {
+      "seed": 0,
+      "round": 1,
+      "weak_dimensions": 1,
+      "gauge_free_dimensions": 63,
+      "eigenvalue_ratio": 0.00025491639954451824,
+      "gain_collinearity_relative_residual": 2.0472026478015166e-09,
+      "weak_trace_max_relative_difference": 0.9999898258543951,
+      "weak_trace_correlation": 1.0,
+      "trace_dopt_correlation": 0.9873129373812177,
+      "reconstructed_queries_match": true
+    },
+    {
+      "seed": 0,
+      "round": 5,
+      "weak_dimensions": 1,
+      "gauge_free_dimensions": 63,
+      "eigenvalue_ratio": 0.0002551121721344262,
+      "gain_collinearity_relative_residual": 9.622961515318122e-10,
+      "weak_trace_max_relative_difference": 0.9999999787196033,
+      "weak_trace_correlation": 0.999999999998561,
+      "trace_dopt_correlation": 0.9999901413276311,
+      "reconstructed_queries_match": true
+    },
+    {
+      "seed": 0,
+      "round": 10,
+      "weak_dimensions": 1,
+      "gauge_free_dimensions": 63,
+      "eigenvalue_ratio": 0.00025511440521138677,
+      "gain_collinearity_relative_residual": 9.006908556484058e-10,
+      "weak_trace_max_relative_difference": 0.9999999855401795,
+      "weak_trace_correlation": 0.9999999999995031,
+      "trace_dopt_correlation": 0.9999972022044428,
+      "reconstructed_queries_match": true
+    },
+    {
+      "seed": 1,
+      "round": 1,
+      "weak_dimensions": 1,
+      "gauge_free_dimensions": 63,
+      "eigenvalue_ratio": 0.00025479336202517607,
+      "gain_collinearity_relative_residual": 1.7189148942320044e-09,
+      "weak_trace_max_relative_difference": 0.9999682391825555,
+      "weak_trace_correlation": 0.9999999999999998,
+      "trace_dopt_correlation": 0.9749954750221385,
+      "reconstructed_queries_match": true
+    },
+    {
+      "seed": 1,
+      "round": 5,
+      "weak_dimensions": 1,
+      "gauge_free_dimensions": 63,
+      "eigenvalue_ratio": 0.0002551110363449337,
+      "gain_collinearity_relative_residual": 1.020066017174375e-09,
+      "weak_trace_max_relative_difference": 0.9999999667682421,
+      "weak_trace_correlation": 0.999999999999523,
+      "trace_dopt_correlation": 0.9999778474778258,
+      "reconstructed_queries_match": true
+    },
+    {
+      "seed": 1,
+      "round": 10,
+      "weak_dimensions": 1,
+      "gauge_free_dimensions": 63,
+      "eigenvalue_ratio": 0.0002551134859829476,
+      "gain_collinearity_relative_residual": 2.1075537640876474e-09,
+      "weak_trace_max_relative_difference": 0.9999999815852111,
+      "weak_trace_correlation": 0.999999999999821,
+      "trace_dopt_correlation": 0.9997899635263726,
+      "reconstructed_queries_match": true
+    },
+    {
+      "seed": 2,
+      "round": 1,
+      "weak_dimensions": 1,
+      "gauge_free_dimensions": 63,
+      "eigenvalue_ratio": 0.000254908822383376,
+      "gain_collinearity_relative_residual": 1.9178624499499582e-09,
+      "weak_trace_max_relative_difference": 0.9999855214376551,
+      "weak_trace_correlation": 0.9999999999999999,
+      "trace_dopt_correlation": 0.9776570101403553,
+      "reconstructed_queries_match": true
+    },
+    {
+      "seed": 2,
+      "round": 5,
+      "weak_dimensions": 1,
+      "gauge_free_dimensions": 63,
+      "eigenvalue_ratio": 0.0002551114129205946,
+      "gain_collinearity_relative_residual": 9.51332627362965e-10,
+      "weak_trace_max_relative_difference": 0.999999969401278,
+      "weak_trace_correlation": 0.999999999999588,
+      "trace_dopt_correlation": 0.9999675801994559,
+      "reconstructed_queries_match": true
+    },
+    {
+      "seed": 2,
+      "round": 10,
+      "weak_dimensions": 1,
+      "gauge_free_dimensions": 63,
+      "eigenvalue_ratio": 0.0002551142954908167,
+      "gain_collinearity_relative_residual": 9.536374516677287e-10,
+      "weak_trace_max_relative_difference": 0.9999999849453168,
+      "weak_trace_correlation": 0.9999999999986382,
+      "trace_dopt_correlation": 0.9999960465677635,
+      "reconstructed_queries_match": true
+    },
+    {
+      "seed": 3,
+      "round": 1,
+      "weak_dimensions": 1,
+      "gauge_free_dimensions": 63,
+      "eigenvalue_ratio": 0.0002548918731922722,
+      "gain_collinearity_relative_residual": 3.511183496936182e-09,
+      "weak_trace_max_relative_difference": 0.9999827253502279,
+      "weak_trace_correlation": 1.0,
+      "trace_dopt_correlation": 0.9125504398412735,
+      "reconstructed_queries_match": true
+    },
+    {
+      "seed": 3,
+      "round": 5,
+      "weak_dimensions": 1,
+      "gauge_free_dimensions": 63,
+      "eigenvalue_ratio": 0.0002551123332101032,
+      "gain_collinearity_relative_residual": 1.0510757060494065e-09,
+      "weak_trace_max_relative_difference": 0.9999999753029242,
+      "weak_trace_correlation": 0.9999999999994655,
+      "trace_dopt_correlation": 0.9999737156742542,
+      "reconstructed_queries_match": true
+    },
+    {
+      "seed": 3,
+      "round": 10,
+      "weak_dimensions": 1,
+      "gauge_free_dimensions": 63,
+      "eigenvalue_ratio": 0.00025511423744033,
+      "gain_collinearity_relative_residual": 1.6914128637373813e-09,
+      "weak_trace_max_relative_difference": 0.9999999847977659,
+      "weak_trace_correlation": 0.9999999999970843,
+      "trace_dopt_correlation": 0.9999854121342265,
+      "reconstructed_queries_match": true
+    },
+    {
+      "seed": 4,
+      "round": 1,
+      "weak_dimensions": 1,
+      "gauge_free_dimensions": 63,
+      "eigenvalue_ratio": 0.00025499605237793495,
+      "gain_collinearity_relative_residual": 1.5632425224401974e-09,
+      "weak_trace_max_relative_difference": 0.9999953455118835,
+      "weak_trace_correlation": 1.0,
+      "trace_dopt_correlation": 0.9897222831878018,
+      "reconstructed_queries_match": true
+    },
+    {
+      "seed": 4,
+      "round": 5,
+      "weak_dimensions": 1,
+      "gauge_free_dimensions": 63,
+      "eigenvalue_ratio": 0.00025511159328060344,
+      "gain_collinearity_relative_residual": 1.5560814291910095e-09,
+      "weak_trace_max_relative_difference": 0.9999999704093245,
+      "weak_trace_correlation": 0.9999999999993817,
+      "trace_dopt_correlation": 0.999951353104659,
+      "reconstructed_queries_match": true
+    },
+    {
+      "seed": 4,
+      "round": 10,
+      "weak_dimensions": 1,
+      "gauge_free_dimensions": 63,
+      "eigenvalue_ratio": 0.0002551143384939205,
+      "gain_collinearity_relative_residual": 1.5918399828968492e-09,
+      "weak_trace_max_relative_difference": 0.9999999851443943,
+      "weak_trace_correlation": 0.9999999999996907,
+      "trace_dopt_correlation": 0.999965230213108,
+      "reconstructed_queries_match": true
+    }
+  ]
+}

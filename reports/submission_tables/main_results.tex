@@ -1,0 +1,9 @@
+\begin{table}[t]\centering\small
+\caption{Independent-test evaluation of saved 85,000-update models. Thresholds and beams are frozen before the 20,000-frame test. PMD intervals are Wilson test-frame intervals, conditional on each fixed model. These are single trained models, not repeated-seed averages.}\label{tab:independent-main}
+\setlength{\tabcolsep}{3pt}
+\begin{tabular}{lrrrr}\toprule Model & $P_{\rm md}$ [95\% CI] & $P_{\rm fa}$ & SER & RMSE (m)\\\midrule
+SL & $0.0865$ [$ 0.0812, 0.0922 $] & 0.0083 & 0.0037 & 2.629 \\
+UL & $0.1402$ [$ 0.1335, 0.1471 $] & 0.0082 & 0.0038 & 4.198 \\
+SSL & $0.0873$ [$ 0.0819, 0.0930 $] & 0.0081 & 0.0037 & 1.788 \\
+\bottomrule\end{tabular}
+\end{table}

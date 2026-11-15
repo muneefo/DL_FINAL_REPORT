@@ -1,0 +1,11 @@
+__pycache__/
+*.py[cod]
+.venv/
+.plot-deps/
+.pdf-deps/
+.mplconfig*/
+.vscode/
+.env
+.env.*
+*.tmp
+.DS_Store

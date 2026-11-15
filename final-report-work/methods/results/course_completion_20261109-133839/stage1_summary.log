@@ -1,0 +1,11 @@
+# Completion-stage evidence
+
+Thresholds use independent null calibration; beams are selected on validation data and frozen before testing.
+No test result is used to change the operating point. Test SER can exceed the validation constraint and is explicitly reported.
+Ranges are sampled per frame, correcting legacy shared-range batches. These results must not overwrite legacy reproduction evidence.
+Wilson intervals quantify conditional independent test-frame uncertainty for each frozen model; they do not establish hardware-population significance.
+
+Completed checkpoint/SNR evaluations: 187.
+
+See independent_evaluation.csv, per-checkpoint JSON metadata, and stage4_localization per-scene arrays.
+The course rubric/page limit and final human contribution declaration still require confirmation.

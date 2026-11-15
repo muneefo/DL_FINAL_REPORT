@@ -1,0 +1,19 @@
+{
+  "deadline": "2026-11-27",
+  "timezone": "America/Toronto",
+  "reason": "Finish the active run; prioritize the agreed four seed-42 allocations and reserve time for evaluation, writing and demo",
+  "runs": [
+    {"seed": 10, "supervised": 0, "note": "already running; preserve and finish"},
+    {"seed": 42, "supervised": 100},
+    {"seed": 42, "supervised": 500},
+    {"seed": 42, "supervised": 1000},
+    {"seed": 42, "supervised": 5000}
+  ],
+  "total_updates_per_run": 85000,
+  "existing_reference_models": "Keep existing SL/UL/SSL archives with their actual provenance; do not count them as new matched-seed runs",
+  "target_compute_finish": "2026-11-19",
+  "analysis_and_reproducibility": "2026-11-20 through 2026-11-23",
+  "pdf_slides_demo_and_rehearsal": "2026-11-24 through 2026-11-26",
+  "submission": "2026-11-27; exact OnQ cutoff time unverified",
+  "additional_repeats": "Only if time permits; not in the automatic queue"
+}

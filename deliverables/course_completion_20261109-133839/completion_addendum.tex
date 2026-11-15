@@ -1,0 +1,27 @@
+\section{Independent Evaluation and Completion Experiments}
+
+The legacy results above are retained for reproduction. The following evaluation calibrates a null threshold, selects a beam using validation observations, and freezes both before testing on separate observations. Each frame draws its own target range, correcting the legacy shared-range batches. No independently sorted interpolation is used.
+
+Null calibration, validation and test use 10,000, 10,000 and 20,000 frames, respectively, with distinct seeds. The validation SER constraint is 1\%; a test violation is reported rather than used to reselect a beam. Wilson intervals quantify test-frame detection uncertainty for fixed models, separately from hardware/optimization variability.
+
+\begin{table}[t]\centering\small\caption{Fresh fixed-budget sweep: 85,000 updates per run. Test operating points were selected on validation data.}
+
+\begin{tabular}{lrrr}\toprule Run & $P_{\rm md}$ & $P_{\rm fa}$ & SER\\\midrule
+
+sl0\_seed10 & 0.14256 & 0.00814 & 0.00398 \\
+
+sl1000\_seed42 & 0.10513 & 0.01105 & 0.00367 \\
+
+sl100\_seed42 & 0.14017 & 0.00824 & 0.00381 \\
+
+sl5000\_seed42 & 0.08940 & 0.00673 & 0.00362 \\
+
+sl500\_seed42 & 0.14047 & 0.00924 & 0.00376 \\
+
+\bottomrule\end{tabular}\end{table}
+
+The sweep uses fresh online training scenes; supervised observation counts equal supervised updates times batch size, and are not unique fixed-pool acquisition labels. Two optimization seeds do not establish statistical equivalence.
+
+SNR evaluation changes test sensing SNR to 5, 10, 20 and 25 dB without retraining. Independent localization uses new scene seed 93001 and noise seed 94001, saves per-scene errors, and decomposes squared position error exactly into radial and angular contributions.
+
+Full per-checkpoint values, test uncertainty, validation feasibility and SER violations are provided in the accompanying CSV/JSON evidence. Remaining publication checks are PDF layout, presentation review, course rubric compliance and the human contribution declaration.

@@ -1,0 +1,439 @@
+{
+  "started": "20261108-160301",
+  "hardware_seeds": [
+    3101,
+    3102,
+    3103
+  ],
+  "optimization_seeds": [
+    0,
+    1,
+    2
+  ],
+  "coverage_degrees": [
+    10,
+    60
+  ],
+  "n_training_runs": 126,
+  "jobs": [
+    {
+      "name": "hw3101_th10_matched",
+      "args": [
+        "--rules",
+        "weak",
+        "trace",
+        "full",
+        "random",
+        "fixed",
+        "--seeds",
+        "0",
+        "1",
+        "2"
+      ],
+      "started": "2026-11-08T16:03:02.740068",
+      "exit_code": 0,
+      "finished": "2026-11-08T16:12:35.078123"
+    },
+    {
+      "name": "hw3101_th10_noRC",
+      "args": [
+        "--rules",
+        "weak",
+        "full",
+        "--no-redundancy-control",
+        "--seeds",
+        "0",
+        "1",
+        "2"
+      ],
+      "started": "2026-11-08T16:12:35.078123",
+      "exit_code": 0,
+      "finished": "2026-11-08T16:17:29.440561"
+    },
+    {
+      "name": "hw3101_th10_isac",
+      "args": [
+        "C:\\Users\\SWIMS\\Downloads\\SSLISAC-main\\final-report-work\\methods\\results\\hardware_study_20261108-160301\\hw3101_th10\\active_fixed_hw3101_s0_th10_cpu_20261108-160304.npz",
+        "C:\\Users\\SWIMS\\Downloads\\SSLISAC-main\\final-report-work\\methods\\results\\hardware_study_20261108-160301\\hw3101_th10\\active_fixed_hw3101_s1_th10_cpu_20261108-160304.npz",
+        "C:\\Users\\SWIMS\\Downloads\\SSLISAC-main\\final-report-work\\methods\\results\\hardware_study_20261108-160301\\hw3101_th10\\active_fixed_hw3101_s2_th10_cpu_20261108-160304.npz",
+        "C:\\Users\\SWIMS\\Downloads\\SSLISAC-main\\final-report-work\\methods\\results\\hardware_study_20261108-160301\\hw3101_th10\\active_full_hw3101_s0_th10_cpu_20261108-160304.npz",
+        "C:\\Users\\SWIMS\\Downloads\\SSLISAC-main\\final-report-work\\methods\\results\\hardware_study_20261108-160301\\hw3101_th10\\active_full_hw3101_s1_th10_cpu_20261108-160304.npz",
+        "C:\\Users\\SWIMS\\Downloads\\SSLISAC-main\\final-report-work\\methods\\results\\hardware_study_20261108-160301\\hw3101_th10\\active_full_hw3101_s2_th10_cpu_20261108-160304.npz",
+        "C:\\Users\\SWIMS\\Downloads\\SSLISAC-main\\final-report-work\\methods\\results\\hardware_study_20261108-160301\\hw3101_th10\\active_full_noRC_hw3101_s0_th10_cpu_20261108-161236.npz",
+        "C:\\Users\\SWIMS\\Downloads\\SSLISAC-main\\final-report-work\\methods\\results\\hardware_study_20261108-160301\\hw3101_th10\\active_full_noRC_hw3101_s1_th10_cpu_20261108-161236.npz",
+        "C:\\Users\\SWIMS\\Downloads\\SSLISAC-main\\final-report-work\\methods\\results\\hardware_study_20261108-160301\\hw3101_th10\\active_full_noRC_hw3101_s2_th10_cpu_20261108-161236.npz",
+        "C:\\Users\\SWIMS\\Downloads\\SSLISAC-main\\final-report-work\\methods\\results\\hardware_study_20261108-160301\\hw3101_th10\\active_random_hw3101_s0_th10_cpu_20261108-160304.npz",
+        "C:\\Users\\SWIMS\\Downloads\\SSLISAC-main\\final-report-work\\methods\\results\\hardware_study_20261108-160301\\hw3101_th10\\active_random_hw3101_s1_th10_cpu_20261108-160304.npz",
+        "C:\\Users\\SWIMS\\Downloads\\SSLISAC-main\\final-report-work\\methods\\results\\hardware_study_20261108-160301\\hw3101_th10\\active_random_hw3101_s2_th10_cpu_20261108-160304.npz",
+        "C:\\Users\\SWIMS\\Downloads\\SSLISAC-main\\final-report-work\\methods\\results\\hardware_study_20261108-160301\\hw3101_th10\\active_trace_hw3101_s0_th10_cpu_20261108-160304.npz",
+        "C:\\Users\\SWIMS\\Downloads\\SSLISAC-main\\final-report-work\\methods\\results\\hardware_study_20261108-160301\\hw3101_th10\\active_trace_hw3101_s1_th10_cpu_20261108-160304.npz",
+        "C:\\Users\\SWIMS\\Downloads\\SSLISAC-main\\final-report-work\\methods\\results\\hardware_study_20261108-160301\\hw3101_th10\\active_trace_hw3101_s2_th10_cpu_20261108-160304.npz",
+        "C:\\Users\\SWIMS\\Downloads\\SSLISAC-main\\final-report-work\\methods\\results\\hardware_study_20261108-160301\\hw3101_th10\\active_weak_hw3101_s0_th10_cpu_20261108-160304.npz",
+        "C:\\Users\\SWIMS\\Downloads\\SSLISAC-main\\final-report-work\\methods\\results\\hardware_study_20261108-160301\\hw3101_th10\\active_weak_hw3101_s1_th10_cpu_20261108-160304.npz",
+        "C:\\Users\\SWIMS\\Downloads\\SSLISAC-main\\final-report-work\\methods\\results\\hardware_study_20261108-160301\\hw3101_th10\\active_weak_hw3101_s2_th10_cpu_20261108-160304.npz",
+        "C:\\Users\\SWIMS\\Downloads\\SSLISAC-main\\final-report-work\\methods\\results\\hardware_study_20261108-160301\\hw3101_th10\\active_weak_noRC_hw3101_s0_th10_cpu_20261108-161236.npz",
+        "C:\\Users\\SWIMS\\Downloads\\SSLISAC-main\\final-report-work\\methods\\results\\hardware_study_20261108-160301\\hw3101_th10\\active_weak_noRC_hw3101_s1_th10_cpu_20261108-161236.npz",
+        "C:\\Users\\SWIMS\\Downloads\\SSLISAC-main\\final-report-work\\methods\\results\\hardware_study_20261108-160301\\hw3101_th10\\active_weak_noRC_hw3101_s2_th10_cpu_20261108-161236.npz"
+      ],
+      "started": "2026-11-08T16:17:29.440561",
+      "exit_code": 0,
+      "finished": "2026-11-08T16:19:12.741517"
+    },
+    {
+      "name": "hw3102_th10_matched",
+      "args": [
+        "--rules",
+        "weak",
+        "trace",
+        "full",
+        "random",
+        "fixed",
+        "--seeds",
+        "0",
+        "1",
+        "2"
+      ],
+      "started": "2026-11-08T16:19:12.741517",
+      "exit_code": 0,
+      "finished": "2026-11-08T16:28:34.763518"
+    },
+    {
+      "name": "hw3102_th10_noRC",
+      "args": [
+        "--rules",
+        "weak",
+        "full",
+        "--no-redundancy-control",
+        "--seeds",
+        "0",
+        "1",
+        "2"
+      ],
+      "started": "2026-11-08T16:28:34.764519",
+      "exit_code": 0,
+      "finished": "2026-11-08T16:33:29.280005"
+    },
+    {
+      "name": "hw3102_th10_isac",
+      "args": [
+        "C:\\Users\\SWIMS\\Downloads\\SSLISAC-main\\final-report-work\\methods\\results\\hardware_study_20261108-160301\\hw3102_th10\\active_fixed_hw3102_s0_th10_cpu_20261108-161914.npz",
+        "C:\\Users\\SWIMS\\Downloads\\SSLISAC-main\\final-report-work\\methods\\results\\hardware_study_20261108-160301\\hw3102_th10\\active_fixed_hw3102_s1_th10_cpu_20261108-161914.npz",
+        "C:\\Users\\SWIMS\\Downloads\\SSLISAC-main\\final-report-work\\methods\\results\\hardware_study_20261108-160301\\hw3102_th10\\active_fixed_hw3102_s2_th10_cpu_20261108-161914.npz",
+        "C:\\Users\\SWIMS\\Downloads\\SSLISAC-main\\final-report-work\\methods\\results\\hardware_study_20261108-160301\\hw3102_th10\\active_full_hw3102_s0_th10_cpu_20261108-161914.npz",
+        "C:\\Users\\SWIMS\\Downloads\\SSLISAC-main\\final-report-work\\methods\\results\\hardware_study_20261108-160301\\hw3102_th10\\active_full_hw3102_s1_th10_cpu_20261108-161914.npz",
+        "C:\\Users\\SWIMS\\Downloads\\SSLISAC-main\\final-report-work\\methods\\results\\hardware_study_20261108-160301\\hw3102_th10\\active_full_hw3102_s2_th10_cpu_20261108-161914.npz",
+        "C:\\Users\\SWIMS\\Downloads\\SSLISAC-main\\final-report-work\\methods\\results\\hardware_study_20261108-160301\\hw3102_th10\\active_full_noRC_hw3102_s0_th10_cpu_20261108-162836.npz",
+        "C:\\Users\\SWIMS\\Downloads\\SSLISAC-main\\final-report-work\\methods\\results\\hardware_study_20261108-160301\\hw3102_th10\\active_full_noRC_hw3102_s1_th10_cpu_20261108-162836.npz",
+        "C:\\Users\\SWIMS\\Downloads\\SSLISAC-main\\final-report-work\\methods\\results\\hardware_study_20261108-160301\\hw3102_th10\\active_full_noRC_hw3102_s2_th10_cpu_20261108-162836.npz",
+        "C:\\Users\\SWIMS\\Downloads\\SSLISAC-main\\final-report-work\\methods\\results\\hardware_study_20261108-160301\\hw3102_th10\\active_random_hw3102_s0_th10_cpu_20261108-161914.npz",
+        "C:\\Users\\SWIMS\\Downloads\\SSLISAC-main\\final-report-work\\methods\\results\\hardware_study_20261108-160301\\hw3102_th10\\active_random_hw3102_s1_th10_cpu_20261108-161914.npz",
+        "C:\\Users\\SWIMS\\Downloads\\SSLISAC-main\\final-report-work\\methods\\results\\hardware_study_20261108-160301\\hw3102_th10\\active_random_hw3102_s2_th10_cpu_20261108-161914.npz",
+        "C:\\Users\\SWIMS\\Downloads\\SSLISAC-main\\final-report-work\\methods\\results\\hardware_study_20261108-160301\\hw3102_th10\\active_trace_hw3102_s0_th10_cpu_20261108-161914.npz",
+        "C:\\Users\\SWIMS\\Downloads\\SSLISAC-main\\final-report-work\\methods\\results\\hardware_study_20261108-160301\\hw3102_th10\\active_trace_hw3102_s1_th10_cpu_20261108-161914.npz",
+        "C:\\Users\\SWIMS\\Downloads\\SSLISAC-main\\final-report-work\\methods\\results\\hardware_study_20261108-160301\\hw3102_th10\\active_trace_hw3102_s2_th10_cpu_20261108-161914.npz",
+        "C:\\Users\\SWIMS\\Downloads\\SSLISAC-main\\final-report-work\\methods\\results\\hardware_study_20261108-160301\\hw3102_th10\\active_weak_hw3102_s0_th10_cpu_20261108-161914.npz",
+        "C:\\Users\\SWIMS\\Downloads\\SSLISAC-main\\final-report-work\\methods\\results\\hardware_study_20261108-160301\\hw3102_th10\\active_weak_hw3102_s1_th10_cpu_20261108-161914.npz",
+        "C:\\Users\\SWIMS\\Downloads\\SSLISAC-main\\final-report-work\\methods\\results\\hardware_study_20261108-160301\\hw3102_th10\\active_weak_hw3102_s2_th10_cpu_20261108-161914.npz",
+        "C:\\Users\\SWIMS\\Downloads\\SSLISAC-main\\final-report-work\\methods\\results\\hardware_study_20261108-160301\\hw3102_th10\\active_weak_noRC_hw3102_s0_th10_cpu_20261108-162836.npz",
+        "C:\\Users\\SWIMS\\Downloads\\SSLISAC-main\\final-report-work\\methods\\results\\hardware_study_20261108-160301\\hw3102_th10\\active_weak_noRC_hw3102_s1_th10_cpu_20261108-162836.npz",
+        "C:\\Users\\SWIMS\\Downloads\\SSLISAC-main\\final-report-work\\methods\\results\\hardware_study_20261108-160301\\hw3102_th10\\active_weak_noRC_hw3102_s2_th10_cpu_20261108-162836.npz"
+      ],
+      "started": "2026-11-08T16:33:29.281006",
+      "exit_code": 0,
+      "finished": "2026-11-08T16:35:14.421673"
+    },
+    {
+      "name": "hw3103_th10_matched",
+      "args": [
+        "--rules",
+        "weak",
+        "trace",
+        "full",
+        "random",
+        "fixed",
+        "--seeds",
+        "0",
+        "1",
+        "2"
+      ],
+      "started": "2026-11-08T16:35:14.422677",
+      "exit_code": 0,
+      "finished": "2026-11-08T16:44:43.787920"
+    },
+    {
+      "name": "hw3103_th10_noRC",
+      "args": [
+        "--rules",
+        "weak",
+        "full",
+        "--no-redundancy-control",
+        "--seeds",
+        "0",
+        "1",
+        "2"
+      ],
+      "started": "2026-11-08T16:44:43.787920",
+      "exit_code": 0,
+      "finished": "2026-11-08T16:49:36.758471"
+    },
+    {
+      "name": "hw3103_th10_isac",
+      "args": [
+        "C:\\Users\\SWIMS\\Downloads\\SSLISAC-main\\final-report-work\\methods\\results\\hardware_study_20261108-160301\\hw3103_th10\\active_fixed_hw3103_s0_th10_cpu_20261108-163516.npz",
+        "C:\\Users\\SWIMS\\Downloads\\SSLISAC-main\\final-report-work\\methods\\results\\hardware_study_20261108-160301\\hw3103_th10\\active_fixed_hw3103_s1_th10_cpu_20261108-163516.npz",
+        "C:\\Users\\SWIMS\\Downloads\\SSLISAC-main\\final-report-work\\methods\\results\\hardware_study_20261108-160301\\hw3103_th10\\active_fixed_hw3103_s2_th10_cpu_20261108-163516.npz",
+        "C:\\Users\\SWIMS\\Downloads\\SSLISAC-main\\final-report-work\\methods\\results\\hardware_study_20261108-160301\\hw3103_th10\\active_full_hw3103_s0_th10_cpu_20261108-163516.npz",
+        "C:\\Users\\SWIMS\\Downloads\\SSLISAC-main\\final-report-work\\methods\\results\\hardware_study_20261108-160301\\hw3103_th10\\active_full_hw3103_s1_th10_cpu_20261108-163516.npz",
+        "C:\\Users\\SWIMS\\Downloads\\SSLISAC-main\\final-report-work\\methods\\results\\hardware_study_20261108-160301\\hw3103_th10\\active_full_hw3103_s2_th10_cpu_20261108-163516.npz",
+        "C:\\Users\\SWIMS\\Downloads\\SSLISAC-main\\final-report-work\\methods\\results\\hardware_study_20261108-160301\\hw3103_th10\\active_full_noRC_hw3103_s0_th10_cpu_20261108-164445.npz",
+        "C:\\Users\\SWIMS\\Downloads\\SSLISAC-main\\final-report-work\\methods\\results\\hardware_study_20261108-160301\\hw3103_th10\\active_full_noRC_hw3103_s1_th10_cpu_20261108-164445.npz",
+        "C:\\Users\\SWIMS\\Downloads\\SSLISAC-main\\final-report-work\\methods\\results\\hardware_study_20261108-160301\\hw3103_th10\\active_full_noRC_hw3103_s2_th10_cpu_20261108-164445.npz",
+        "C:\\Users\\SWIMS\\Downloads\\SSLISAC-main\\final-report-work\\methods\\results\\hardware_study_20261108-160301\\hw3103_th10\\active_random_hw3103_s0_th10_cpu_20261108-163516.npz",
+        "C:\\Users\\SWIMS\\Downloads\\SSLISAC-main\\final-report-work\\methods\\results\\hardware_study_20261108-160301\\hw3103_th10\\active_random_hw3103_s1_th10_cpu_20261108-163516.npz",
+        "C:\\Users\\SWIMS\\Downloads\\SSLISAC-main\\final-report-work\\methods\\results\\hardware_study_20261108-160301\\hw3103_th10\\active_random_hw3103_s2_th10_cpu_20261108-163516.npz",
+        "C:\\Users\\SWIMS\\Downloads\\SSLISAC-main\\final-report-work\\methods\\results\\hardware_study_20261108-160301\\hw3103_th10\\active_trace_hw3103_s0_th10_cpu_20261108-163516.npz",
+        "C:\\Users\\SWIMS\\Downloads\\SSLISAC-main\\final-report-work\\methods\\results\\hardware_study_20261108-160301\\hw3103_th10\\active_trace_hw3103_s1_th10_cpu_20261108-163516.npz",
+        "C:\\Users\\SWIMS\\Downloads\\SSLISAC-main\\final-report-work\\methods\\results\\hardware_study_20261108-160301\\hw3103_th10\\active_trace_hw3103_s2_th10_cpu_20261108-163516.npz",
+        "C:\\Users\\SWIMS\\Downloads\\SSLISAC-main\\final-report-work\\methods\\results\\hardware_study_20261108-160301\\hw3103_th10\\active_weak_hw3103_s0_th10_cpu_20261108-163516.npz",
+        "C:\\Users\\SWIMS\\Downloads\\SSLISAC-main\\final-report-work\\methods\\results\\hardware_study_20261108-160301\\hw3103_th10\\active_weak_hw3103_s1_th10_cpu_20261108-163516.npz",
+        "C:\\Users\\SWIMS\\Downloads\\SSLISAC-main\\final-report-work\\methods\\results\\hardware_study_20261108-160301\\hw3103_th10\\active_weak_hw3103_s2_th10_cpu_20261108-163516.npz",
+        "C:\\Users\\SWIMS\\Downloads\\SSLISAC-main\\final-report-work\\methods\\results\\hardware_study_20261108-160301\\hw3103_th10\\active_weak_noRC_hw3103_s0_th10_cpu_20261108-164445.npz",
+        "C:\\Users\\SWIMS\\Downloads\\SSLISAC-main\\final-report-work\\methods\\results\\hardware_study_20261108-160301\\hw3103_th10\\active_weak_noRC_hw3103_s1_th10_cpu_20261108-164445.npz",
+        "C:\\Users\\SWIMS\\Downloads\\SSLISAC-main\\final-report-work\\methods\\results\\hardware_study_20261108-160301\\hw3103_th10\\active_weak_noRC_hw3103_s2_th10_cpu_20261108-164445.npz"
+      ],
+      "started": "2026-11-08T16:49:36.758471",
+      "exit_code": 0,
+      "finished": "2026-11-08T16:51:20.616062"
+    },
+    {
+      "name": "hw3101_th60_matched",
+      "args": [
+        "--rules",
+        "weak",
+        "trace",
+        "full",
+        "random",
+        "fixed",
+        "--seeds",
+        "0",
+        "1",
+        "2"
+      ],
+      "started": "2026-11-08T16:51:20.616062",
+      "exit_code": 0,
+      "finished": "2026-11-08T17:00:44.179744"
+    },
+    {
+      "name": "hw3101_th60_noRC",
+      "args": [
+        "--rules",
+        "weak",
+        "full",
+        "--no-redundancy-control",
+        "--seeds",
+        "0",
+        "1",
+        "2"
+      ],
+      "started": "2026-11-08T17:00:44.179744",
+      "exit_code": 0,
+      "finished": "2026-11-08T17:05:39.271610"
+    },
+    {
+      "name": "hw3101_th60_isac",
+      "args": [
+        "C:\\Users\\SWIMS\\Downloads\\SSLISAC-main\\final-report-work\\methods\\results\\hardware_study_20261108-160301\\hw3101_th60\\active_fixed_hw3101_s0_th60_cpu_20261108-165122.npz",
+        "C:\\Users\\SWIMS\\Downloads\\SSLISAC-main\\final-report-work\\methods\\results\\hardware_study_20261108-160301\\hw3101_th60\\active_fixed_hw3101_s1_th60_cpu_20261108-165122.npz",
+        "C:\\Users\\SWIMS\\Downloads\\SSLISAC-main\\final-report-work\\methods\\results\\hardware_study_20261108-160301\\hw3101_th60\\active_fixed_hw3101_s2_th60_cpu_20261108-165122.npz",
+        "C:\\Users\\SWIMS\\Downloads\\SSLISAC-main\\final-report-work\\methods\\results\\hardware_study_20261108-160301\\hw3101_th60\\active_full_hw3101_s0_th60_cpu_20261108-165122.npz",
+        "C:\\Users\\SWIMS\\Downloads\\SSLISAC-main\\final-report-work\\methods\\results\\hardware_study_20261108-160301\\hw3101_th60\\active_full_hw3101_s1_th60_cpu_20261108-165122.npz",
+        "C:\\Users\\SWIMS\\Downloads\\SSLISAC-main\\final-report-work\\methods\\results\\hardware_study_20261108-160301\\hw3101_th60\\active_full_hw3101_s2_th60_cpu_20261108-165122.npz",
+        "C:\\Users\\SWIMS\\Downloads\\SSLISAC-main\\final-report-work\\methods\\results\\hardware_study_20261108-160301\\hw3101_th60\\active_full_noRC_hw3101_s0_th60_cpu_20261108-170045.npz",
+        "C:\\Users\\SWIMS\\Downloads\\SSLISAC-main\\final-report-work\\methods\\results\\hardware_study_20261108-160301\\hw3101_th60\\active_full_noRC_hw3101_s1_th60_cpu_20261108-170045.npz",
+        "C:\\Users\\SWIMS\\Downloads\\SSLISAC-main\\final-report-work\\methods\\results\\hardware_study_20261108-160301\\hw3101_th60\\active_full_noRC_hw3101_s2_th60_cpu_20261108-170045.npz",
+        "C:\\Users\\SWIMS\\Downloads\\SSLISAC-main\\final-report-work\\methods\\results\\hardware_study_20261108-160301\\hw3101_th60\\active_random_hw3101_s0_th60_cpu_20261108-165122.npz",
+        "C:\\Users\\SWIMS\\Downloads\\SSLISAC-main\\final-report-work\\methods\\results\\hardware_study_20261108-160301\\hw3101_th60\\active_random_hw3101_s1_th60_cpu_20261108-165122.npz",
+        "C:\\Users\\SWIMS\\Downloads\\SSLISAC-main\\final-report-work\\methods\\results\\hardware_study_20261108-160301\\hw3101_th60\\active_random_hw3101_s2_th60_cpu_20261108-165122.npz",
+        "C:\\Users\\SWIMS\\Downloads\\SSLISAC-main\\final-report-work\\methods\\results\\hardware_study_20261108-160301\\hw3101_th60\\active_trace_hw3101_s0_th60_cpu_20261108-165122.npz",
+        "C:\\Users\\SWIMS\\Downloads\\SSLISAC-main\\final-report-work\\methods\\results\\hardware_study_20261108-160301\\hw3101_th60\\active_trace_hw3101_s1_th60_cpu_20261108-165122.npz",
+        "C:\\Users\\SWIMS\\Downloads\\SSLISAC-main\\final-report-work\\methods\\results\\hardware_study_20261108-160301\\hw3101_th60\\active_trace_hw3101_s2_th60_cpu_20261108-165122.npz",
+        "C:\\Users\\SWIMS\\Downloads\\SSLISAC-main\\final-report-work\\methods\\results\\hardware_study_20261108-160301\\hw3101_th60\\active_weak_hw3101_s0_th60_cpu_20261108-165122.npz",
+        "C:\\Users\\SWIMS\\Downloads\\SSLISAC-main\\final-report-work\\methods\\results\\hardware_study_20261108-160301\\hw3101_th60\\active_weak_hw3101_s1_th60_cpu_20261108-165122.npz",
+        "C:\\Users\\SWIMS\\Downloads\\SSLISAC-main\\final-report-work\\methods\\results\\hardware_study_20261108-160301\\hw3101_th60\\active_weak_hw3101_s2_th60_cpu_20261108-165122.npz",
+        "C:\\Users\\SWIMS\\Downloads\\SSLISAC-main\\final-report-work\\methods\\results\\hardware_study_20261108-160301\\hw3101_th60\\active_weak_noRC_hw3101_s0_th60_cpu_20261108-170045.npz",
+        "C:\\Users\\SWIMS\\Downloads\\SSLISAC-main\\final-report-work\\methods\\results\\hardware_study_20261108-160301\\hw3101_th60\\active_weak_noRC_hw3101_s1_th60_cpu_20261108-170045.npz",
+        "C:\\Users\\SWIMS\\Downloads\\SSLISAC-main\\final-report-work\\methods\\results\\hardware_study_20261108-160301\\hw3101_th60\\active_weak_noRC_hw3101_s2_th60_cpu_20261108-170045.npz"
+      ],
+      "started": "2026-11-08T17:05:39.271610",
+      "exit_code": 0,
+      "finished": "2026-11-08T17:07:23.394618"
+    },
+    {
+      "name": "hw3102_th60_matched",
+      "args": [
+        "--rules",
+        "weak",
+        "trace",
+        "full",
+        "random",
+        "fixed",
+        "--seeds",
+        "0",
+        "1",
+        "2"
+      ],
+      "started": "2026-11-08T17:07:23.394618",
+      "exit_code": 0,
+      "finished": "2026-11-08T17:16:48.539093"
+    },
+    {
+      "name": "hw3102_th60_noRC",
+      "args": [
+        "--rules",
+        "weak",
+        "full",
+        "--no-redundancy-control",
+        "--seeds",
+        "0",
+        "1",
+        "2"
+      ],
+      "started": "2026-11-08T17:16:48.539093",
+      "exit_code": 0,
+      "finished": "2026-11-08T17:21:41.082539"
+    },
+    {
+      "name": "hw3102_th60_isac",
+      "args": [
+        "C:\\Users\\SWIMS\\Downloads\\SSLISAC-main\\final-report-work\\methods\\results\\hardware_study_20261108-160301\\hw3102_th60\\active_fixed_hw3102_s0_th60_cpu_20261108-170725.npz",
+        "C:\\Users\\SWIMS\\Downloads\\SSLISAC-main\\final-report-work\\methods\\results\\hardware_study_20261108-160301\\hw3102_th60\\active_fixed_hw3102_s1_th60_cpu_20261108-170725.npz",
+        "C:\\Users\\SWIMS\\Downloads\\SSLISAC-main\\final-report-work\\methods\\results\\hardware_study_20261108-160301\\hw3102_th60\\active_fixed_hw3102_s2_th60_cpu_20261108-170725.npz",
+        "C:\\Users\\SWIMS\\Downloads\\SSLISAC-main\\final-report-work\\methods\\results\\hardware_study_20261108-160301\\hw3102_th60\\active_full_hw3102_s0_th60_cpu_20261108-170725.npz",
+        "C:\\Users\\SWIMS\\Downloads\\SSLISAC-main\\final-report-work\\methods\\results\\hardware_study_20261108-160301\\hw3102_th60\\active_full_hw3102_s1_th60_cpu_20261108-170725.npz",
+        "C:\\Users\\SWIMS\\Downloads\\SSLISAC-main\\final-report-work\\methods\\results\\hardware_study_20261108-160301\\hw3102_th60\\active_full_hw3102_s2_th60_cpu_20261108-170725.npz",
+        "C:\\Users\\SWIMS\\Downloads\\SSLISAC-main\\final-report-work\\methods\\results\\hardware_study_20261108-160301\\hw3102_th60\\active_full_noRC_hw3102_s0_th60_cpu_20261108-171650.npz",
+        "C:\\Users\\SWIMS\\Downloads\\SSLISAC-main\\final-report-work\\methods\\results\\hardware_study_20261108-160301\\hw3102_th60\\active_full_noRC_hw3102_s1_th60_cpu_20261108-171650.npz",
+        "C:\\Users\\SWIMS\\Downloads\\SSLISAC-main\\final-report-work\\methods\\results\\hardware_study_20261108-160301\\hw3102_th60\\active_full_noRC_hw3102_s2_th60_cpu_20261108-171650.npz",
+        "C:\\Users\\SWIMS\\Downloads\\SSLISAC-main\\final-report-work\\methods\\results\\hardware_study_20261108-160301\\hw3102_th60\\active_random_hw3102_s0_th60_cpu_20261108-170725.npz",
+        "C:\\Users\\SWIMS\\Downloads\\SSLISAC-main\\final-report-work\\methods\\results\\hardware_study_20261108-160301\\hw3102_th60\\active_random_hw3102_s1_th60_cpu_20261108-170725.npz",
+        "C:\\Users\\SWIMS\\Downloads\\SSLISAC-main\\final-report-work\\methods\\results\\hardware_study_20261108-160301\\hw3102_th60\\active_random_hw3102_s2_th60_cpu_20261108-170725.npz",
+        "C:\\Users\\SWIMS\\Downloads\\SSLISAC-main\\final-report-work\\methods\\results\\hardware_study_20261108-160301\\hw3102_th60\\active_trace_hw3102_s0_th60_cpu_20261108-170725.npz",
+        "C:\\Users\\SWIMS\\Downloads\\SSLISAC-main\\final-report-work\\methods\\results\\hardware_study_20261108-160301\\hw3102_th60\\active_trace_hw3102_s1_th60_cpu_20261108-170725.npz",
+        "C:\\Users\\SWIMS\\Downloads\\SSLISAC-main\\final-report-work\\methods\\results\\hardware_study_20261108-160301\\hw3102_th60\\active_trace_hw3102_s2_th60_cpu_20261108-170725.npz",
+        "C:\\Users\\SWIMS\\Downloads\\SSLISAC-main\\final-report-work\\methods\\results\\hardware_study_20261108-160301\\hw3102_th60\\active_weak_hw3102_s0_th60_cpu_20261108-170725.npz",
+        "C:\\Users\\SWIMS\\Downloads\\SSLISAC-main\\final-report-work\\methods\\results\\hardware_study_20261108-160301\\hw3102_th60\\active_weak_hw3102_s1_th60_cpu_20261108-170725.npz",
+        "C:\\Users\\SWIMS\\Downloads\\SSLISAC-main\\final-report-work\\methods\\results\\hardware_study_20261108-160301\\hw3102_th60\\active_weak_hw3102_s2_th60_cpu_20261108-170725.npz",
+        "C:\\Users\\SWIMS\\Downloads\\SSLISAC-main\\final-report-work\\methods\\results\\hardware_study_20261108-160301\\hw3102_th60\\active_weak_noRC_hw3102_s0_th60_cpu_20261108-171650.npz",
+        "C:\\Users\\SWIMS\\Downloads\\SSLISAC-main\\final-report-work\\methods\\results\\hardware_study_20261108-160301\\hw3102_th60\\active_weak_noRC_hw3102_s1_th60_cpu_20261108-171650.npz",
+        "C:\\Users\\SWIMS\\Downloads\\SSLISAC-main\\final-report-work\\methods\\results\\hardware_study_20261108-160301\\hw3102_th60\\active_weak_noRC_hw3102_s2_th60_cpu_20261108-171650.npz"
+      ],
+      "started": "2026-11-08T17:21:41.082539",
+      "exit_code": 0,
+      "finished": "2026-11-08T17:23:26.151123"
+    },
+    {
+      "name": "hw3103_th60_matched",
+      "args": [
+        "--rules",
+        "weak",
+        "trace",
+        "full",
+        "random",
+        "fixed",
+        "--seeds",
+        "0",
+        "1",
+        "2"
+      ],
+      "started": "2026-11-08T17:23:26.157054",
+      "exit_code": 0,
+      "finished": "2026-11-08T17:32:49.568900"
+    },
+    {
+      "name": "hw3103_th60_noRC",
+      "args": [
+        "--rules",
+        "weak",
+        "full",
+        "--no-redundancy-control",
+        "--seeds",
+        "0",
+        "1",
+        "2"
+      ],
+      "started": "2026-11-08T17:32:49.568900",
+      "exit_code": 0,
+      "finished": "2026-11-08T17:37:47.757933"
+    },
+    {
+      "name": "hw3103_th60_isac",
+      "args": [
+        "C:\\Users\\SWIMS\\Downloads\\SSLISAC-main\\final-report-work\\methods\\results\\hardware_study_20261108-160301\\hw3103_th60\\active_fixed_hw3103_s0_th60_cpu_20261108-172327.npz",
+        "C:\\Users\\SWIMS\\Downloads\\SSLISAC-main\\final-report-work\\methods\\results\\hardware_study_20261108-160301\\hw3103_th60\\active_fixed_hw3103_s1_th60_cpu_20261108-172327.npz",
+        "C:\\Users\\SWIMS\\Downloads\\SSLISAC-main\\final-report-work\\methods\\results\\hardware_study_20261108-160301\\hw3103_th60\\active_fixed_hw3103_s2_th60_cpu_20261108-172327.npz",
+        "C:\\Users\\SWIMS\\Downloads\\SSLISAC-main\\final-report-work\\methods\\results\\hardware_study_20261108-160301\\hw3103_th60\\active_full_hw3103_s0_th60_cpu_20261108-172327.npz",
+        "C:\\Users\\SWIMS\\Downloads\\SSLISAC-main\\final-report-work\\methods\\results\\hardware_study_20261108-160301\\hw3103_th60\\active_full_hw3103_s1_th60_cpu_20261108-172327.npz",
+        "C:\\Users\\SWIMS\\Downloads\\SSLISAC-main\\final-report-work\\methods\\results\\hardware_study_20261108-160301\\hw3103_th60\\active_full_hw3103_s2_th60_cpu_20261108-172327.npz",
+        "C:\\Users\\SWIMS\\Downloads\\SSLISAC-main\\final-report-work\\methods\\results\\hardware_study_20261108-160301\\hw3103_th60\\active_full_noRC_hw3103_s0_th60_cpu_20261108-173251.npz",
+        "C:\\Users\\SWIMS\\Downloads\\SSLISAC-main\\final-report-work\\methods\\results\\hardware_study_20261108-160301\\hw3103_th60\\active_full_noRC_hw3103_s1_th60_cpu_20261108-173251.npz",
+        "C:\\Users\\SWIMS\\Downloads\\SSLISAC-main\\final-report-work\\methods\\results\\hardware_study_20261108-160301\\hw3103_th60\\active_full_noRC_hw3103_s2_th60_cpu_20261108-173251.npz",
+        "C:\\Users\\SWIMS\\Downloads\\SSLISAC-main\\final-report-work\\methods\\results\\hardware_study_20261108-160301\\hw3103_th60\\active_random_hw3103_s0_th60_cpu_20261108-172327.npz",
+        "C:\\Users\\SWIMS\\Downloads\\SSLISAC-main\\final-report-work\\methods\\results\\hardware_study_20261108-160301\\hw3103_th60\\active_random_hw3103_s1_th60_cpu_20261108-172327.npz",
+        "C:\\Users\\SWIMS\\Downloads\\SSLISAC-main\\final-report-work\\methods\\results\\hardware_study_20261108-160301\\hw3103_th60\\active_random_hw3103_s2_th60_cpu_20261108-172327.npz",
+        "C:\\Users\\SWIMS\\Downloads\\SSLISAC-main\\final-report-work\\methods\\results\\hardware_study_20261108-160301\\hw3103_th60\\active_trace_hw3103_s0_th60_cpu_20261108-172327.npz",
+        "C:\\Users\\SWIMS\\Downloads\\SSLISAC-main\\final-report-work\\methods\\results\\hardware_study_20261108-160301\\hw3103_th60\\active_trace_hw3103_s1_th60_cpu_20261108-172327.npz",
+        "C:\\Users\\SWIMS\\Downloads\\SSLISAC-main\\final-report-work\\methods\\results\\hardware_study_20261108-160301\\hw3103_th60\\active_trace_hw3103_s2_th60_cpu_20261108-172327.npz",
+        "C:\\Users\\SWIMS\\Downloads\\SSLISAC-main\\final-report-work\\methods\\results\\hardware_study_20261108-160301\\hw3103_th60\\active_weak_hw3103_s0_th60_cpu_20261108-172327.npz",
+        "C:\\Users\\SWIMS\\Downloads\\SSLISAC-main\\final-report-work\\methods\\results\\hardware_study_20261108-160301\\hw3103_th60\\active_weak_hw3103_s1_th60_cpu_20261108-172327.npz",
+        "C:\\Users\\SWIMS\\Downloads\\SSLISAC-main\\final-report-work\\methods\\results\\hardware_study_20261108-160301\\hw3103_th60\\active_weak_hw3103_s2_th60_cpu_20261108-172327.npz",
+        "C:\\Users\\SWIMS\\Downloads\\SSLISAC-main\\final-report-work\\methods\\results\\hardware_study_20261108-160301\\hw3103_th60\\active_weak_noRC_hw3103_s0_th60_cpu_20261108-173251.npz",
+        "C:\\Users\\SWIMS\\Downloads\\SSLISAC-main\\final-report-work\\methods\\results\\hardware_study_20261108-160301\\hw3103_th60\\active_weak_noRC_hw3103_s1_th60_cpu_20261108-173251.npz",
+        "C:\\Users\\SWIMS\\Downloads\\SSLISAC-main\\final-report-work\\methods\\results\\hardware_study_20261108-160301\\hw3103_th60\\active_weak_noRC_hw3103_s2_th60_cpu_20261108-173251.npz"
+      ],
+      "started": "2026-11-08T17:37:47.758934",
+      "exit_code": 0,
+      "finished": "2026-11-08T17:39:34.572043"
+    },
+    {
+      "name": "summary",
+      "args": [
+        "C:\\Users\\SWIMS\\Downloads\\SSLISAC-main\\final-report-work\\methods\\results\\hardware_study_20261108-160301"
+      ],
+      "started": "2026-11-08T17:39:34.572043",
+      "exit_code": 0,
+      "finished": "2026-11-08T17:39:35.340267"
+    }
+  ],
+  "inference_unit": "hardware draw; optimizer seeds averaged within hardware",
+  "test_seed": 54321,
+  "ser_limit": 0.01,
+  "source_sha256": {
+    "lib\\acquisition.py": "8f7883f46431e6c8426a4c1c3ad268927196beda58366d4453acf3a9cdc11ab9",
+    "lib\\functions.py": "b6d27b70673b6bbf01cedb0b8d7f99cc553016c65c914b037cb37c782ef0d0e2",
+    "lib\\hardware.py": "34da7b63373954dbf93026b1a921c6a8fe29e625a019b873c0c2d351f3450196",
+    "lib\\identifiability.py": "ffe3cb985a7dea345ae65a2dc4c6a48def6a662f30ef339694af28ce6866218d",
+    "lib\\learnable_parameters.py": "e05a32db9fe0bcb411d20419a4a2d8a728c4698286b1c387ac0d71a901702091",
+    "lib\\scene_pool.py": "6e632454a2a90ada9fed45a83823f6757f4a765efb5eb186e0cbc84e30a41300",
+    "lib\\simulation_parameters.py": "a6700b658f4f41ddb29a97651935fd9e3ed66deb1b878a8d54f0ec9c139438a3",
+    "methods\\active_calibration.py": "6c8787015563b3b0071f7aefe5abebc56b21c7723fcc70db12931a040a49840d",
+    "methods\\baseline.py": "b22d67e895426d470a5185ec608fda49c67b4000270aa4d23feb0f95b83a4fdb",
+    "methods\\check_active_protocol.py": "1aadf7310470acacee595512600e54919eafb5f6c867016992cc1942b436c8b6",
+    "methods\\check_hardware.py": "5304cea167c7ad51654e414ebc294739b68deea361f6d682d14510b3cfc3ccbe",
+    "methods\\diagnose_acquisition.py": "e87b90b3244f8f2bca0198c2c882c1326a996878c93d0413896cf4d0659d229f",
+    "methods\\evaluate_active_isac.py": "88dc7b8c90fadf85a7847ab80ba5263682d039cefa83963702e4bdb6c0bf34ee",
+    "methods\\generate_scenes.py": "93c0a491a5cdac4f7f8663bc227c226337e6ca20430ea60bd2c2a89c5cc1fb74",
+    "methods\\identifiability_check.py": "c174e57978220a4df9bd2d4ee1238c5c224d740c119fa694e0f468bd8b3d2c1f",
+    "methods\\run_final_stage.py": "adf88421b91728865168ae19189e189f3b8114e9b7856a888d83699446b4024a",
+    "methods\\run_followup.py": "c0ad8c72f4ebbef89c0ec5e2afbfdef86aa2d4d91ceca79ae4bf3303b309266d",
+    "methods\\run_hardware_study.py": "0eca9fdd8ab8994bf9b1f2e894116084841524e8fb74a662400db0a5046300c3",
+    "methods\\semisupervised_sl_ul.py": "2d064ff604ab3e37df0fdff0177622c970952af45b395fc59d5739b5ff32b09e",
+    "methods\\semisupervised_ul_sl.py": "21b29ad78001bdc6eb69826a3724e2d5716ae612dbaf88d97dbf01e6895e4be4",
+    "methods\\summarize_active.py": "b0d62a1fe6bb6d2e4fbb485e4a47143062fe130f9538e364c62af255f428be2c",
+    "methods\\summarize_followup.py": "24f8b5bdf7d45029b4663f277772aa60409efc8a3a71c6b3a7c60c22bc810a11",
+    "methods\\summarize_hardware_study.py": "f34092b353b0e68bd44b2a7f37782c2e1fec63f3576a236fd048ed17fd8eaf46",
+    "methods\\supervised_learning.py": "afb2da9e00a9f7e7bc009ee1d40d09794859bc4042ac15cbecbe397210fb6475",
+    "methods\\train_from_pool.py": "2db9bb0fc0c585b99c0ad7f3873b57ca5cdce3a630f47ee7909f4917349a77e7",
+    "methods\\unsupervised_learning.py": "aaa33c806c27bfb374d0fad71ef140a8487b799be264d87e99b3187960408250"
+  },
+  "finished": "2026-11-08T17:39:35.341267"
+}

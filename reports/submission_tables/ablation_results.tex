@@ -1,0 +1,10 @@
+\begin{table}[t]\centering\small
+\caption{Controlled ablations on the corrected fixed-array cohort. Every variant receives 2,200 updates. Entries are means with 95\% Student-$t$ halfwidths across five optimization seeds. Central-sector misdetection uses the legacy measured-frontier protocol, not the later independent-test evaluator.}\label{tab:final-ablation}
+\setlength{\tabcolsep}{3pt}
+\begin{tabular}{lrrr}\toprule Change & Labels & $e_d$ & $P_{\rm md}$ (\%)\\\midrule
+No weak projection (trace) & 60 & $0.1527\pm0.0237$ & $8.729\pm0.080$ \\
+No greedy score update & 60 & $0.1527\pm0.0237$ & $8.729\pm0.080$ \\
+No new-label acquisition & 10 & $0.1683\pm0.0241$ & $8.740\pm0.054$ \\
+Proposed weak + greedy & 60 & $0.1527\pm0.0237$ & $8.729\pm0.080$ \\
+\bottomrule\end{tabular}
+\end{table}

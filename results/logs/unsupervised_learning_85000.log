@@ -1,0 +1,103 @@
+Training allocation: total=85000, supervised=1000, unsupervised=84000, labeled ratio=1.18%
+*** Training started ***
+1/85000 completed training iterations.
+200/85000 completed training iterations.
+400/85000 completed training iterations.
+600/85000 completed training iterations.
+700/85000 completed training iterations.
+800/85000 completed training iterations.
+1000/85000 completed training iterations.
+1500/85000 completed training iterations.
+2000/85000 completed training iterations.
+2500/85000 completed training iterations.
+3000/85000 completed training iterations.
+3500/85000 completed training iterations.
+5000/85000 completed training iterations.
+6500/85000 completed training iterations.
+8000/85000 completed training iterations.
+10000/85000 completed training iterations.
+12500/85000 completed training iterations.
+15000/85000 completed training iterations.
+20000/85000 completed training iterations.
+25000/85000 completed training iterations.
+30000/85000 completed training iterations.
+35000/85000 completed training iterations.
+40000/85000 completed training iterations.
+45000/85000 completed training iterations.
+50000/85000 completed training iterations.
+55000/85000 completed training iterations.
+60000/85000 completed training iterations.
+65000/85000 completed training iterations.
+70000/85000 completed training iterations.
+75000/85000 completed training iterations.
+80000/85000 completed training iterations.
+81000/85000 completed training iterations.
+82000/85000 completed training iterations.
+83000/85000 completed training iterations.
+84000/85000 completed training iterations.
+84200/85000 completed training iterations.
+85000/85000 completed training iterations.
+#=== Completed testing iteration 1/64 ===#
+#=== Completed testing iteration 2/64 ===#
+#=== Completed testing iteration 3/64 ===#
+#=== Completed testing iteration 4/64 ===#
+#=== Completed testing iteration 5/64 ===#
+#=== Completed testing iteration 6/64 ===#
+#=== Completed testing iteration 7/64 ===#
+#=== Completed testing iteration 8/64 ===#
+#=== Completed testing iteration 9/64 ===#
+#=== Completed testing iteration 10/64 ===#
+#=== Completed testing iteration 11/64 ===#
+#=== Completed testing iteration 12/64 ===#
+#=== Completed testing iteration 13/64 ===#
+#=== Completed testing iteration 14/64 ===#
+#=== Completed testing iteration 15/64 ===#
+#=== Completed testing iteration 16/64 ===#
+#=== Completed testing iteration 17/64 ===#
+#=== Completed testing iteration 18/64 ===#
+#=== Completed testing iteration 19/64 ===#
+#=== Completed testing iteration 20/64 ===#
+#=== Completed testing iteration 21/64 ===#
+#=== Completed testing iteration 22/64 ===#
+#=== Completed testing iteration 23/64 ===#
+#=== Completed testing iteration 24/64 ===#
+#=== Completed testing iteration 25/64 ===#
+#=== Completed testing iteration 26/64 ===#
+#=== Completed testing iteration 27/64 ===#
+#=== Completed testing iteration 28/64 ===#
+#=== Completed testing iteration 29/64 ===#
+#=== Completed testing iteration 30/64 ===#
+#=== Completed testing iteration 31/64 ===#
+#=== Completed testing iteration 32/64 ===#
+#=== Completed testing iteration 33/64 ===#
+#=== Completed testing iteration 34/64 ===#
+#=== Completed testing iteration 35/64 ===#
+#=== Completed testing iteration 36/64 ===#
+#=== Completed testing iteration 37/64 ===#
+#=== Completed testing iteration 38/64 ===#
+#=== Completed testing iteration 39/64 ===#
+#=== Completed testing iteration 40/64 ===#
+#=== Completed testing iteration 41/64 ===#
+#=== Completed testing iteration 42/64 ===#
+#=== Completed testing iteration 43/64 ===#
+#=== Completed testing iteration 44/64 ===#
+#=== Completed testing iteration 45/64 ===#
+#=== Completed testing iteration 46/64 ===#
+#=== Completed testing iteration 47/64 ===#
+#=== Completed testing iteration 48/64 ===#
+#=== Completed testing iteration 49/64 ===#
+#=== Completed testing iteration 50/64 ===#
+#=== Completed testing iteration 51/64 ===#
+#=== Completed testing iteration 52/64 ===#
+#=== Completed testing iteration 53/64 ===#
+#=== Completed testing iteration 54/64 ===#
+#=== Completed testing iteration 55/64 ===#
+#=== Completed testing iteration 56/64 ===#
+#=== Completed testing iteration 57/64 ===#
+#=== Completed testing iteration 58/64 ===#
+#=== Completed testing iteration 59/64 ===#
+#=== Completed testing iteration 60/64 ===#
+#=== Completed testing iteration 61/64 ===#
+#=== Completed testing iteration 62/64 ===#
+#=== Completed testing iteration 63/64 ===#
+#=== Completed testing iteration 64/64 ===#

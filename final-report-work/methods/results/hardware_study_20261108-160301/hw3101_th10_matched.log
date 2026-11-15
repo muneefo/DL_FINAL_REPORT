@@ -1,0 +1,213 @@
+Pool C:\Users\SWIMS\Downloads\SSLISAC-main\final-report-work\methods\data\scenes_cpu_th10_train.pt: 2000 scenes; eval C:\Users\SWIMS\Downloads\SSLISAC-main\final-report-work\methods\data\scenes_cpu_th10_val.pt: 500 scenes; settings {'n_init': 10, 'per_round': 5, 'budget': 60, 'sl_steps': 100, 'ul_steps': 100, 'batch': 64, 'n_cand': 300, 'n_eval': 500, 'tau': 0.001}
+*** rule weak, seed 0 ***
+  [weak s0] labels   10  calib err 0.3793 (after SL 0.6599)  median pos err  0.375 m  pos RMSE  14.027 m  angle RMSE  1.298 deg  (acq   0.0s, train   3.1s)
+  [weak s0] labels   15  calib err 0.2639 (after SL 0.3799)  median pos err  0.315 m  pos RMSE  15.194 m  angle RMSE  1.288 deg  (acq   2.3s, train   2.2s)
+  [weak s0] labels   20  calib err 0.2287 (after SL 0.2706)  median pos err  0.325 m  pos RMSE  15.192 m  angle RMSE  1.284 deg  (acq   2.3s, train   2.3s)
+  [weak s0] labels   25  calib err 0.2467 (after SL 0.2292)  median pos err  0.321 m  pos RMSE  15.191 m  angle RMSE  1.286 deg  (acq   2.4s, train   2.4s)
+  [weak s0] labels   30  calib err 0.2495 (after SL 0.2455)  median pos err  0.325 m  pos RMSE  15.930 m  angle RMSE  1.149 deg  (acq   2.3s, train   2.2s)
+  [weak s0] labels   35  calib err 0.2391 (after SL 0.2504)  median pos err  0.317 m  pos RMSE  14.054 m  angle RMSE  1.282 deg  (acq   2.4s, train   2.2s)
+  [weak s0] labels   40  calib err 0.2122 (after SL 0.2432)  median pos err  0.317 m  pos RMSE  15.200 m  angle RMSE  1.287 deg  (acq   2.4s, train   2.1s)
+  [weak s0] labels   45  calib err 0.2277 (after SL 0.2148)  median pos err  0.317 m  pos RMSE  14.054 m  angle RMSE  1.282 deg  (acq   2.4s, train   2.1s)
+  [weak s0] labels   50  calib err 0.2227 (after SL 0.2318)  median pos err  0.321 m  pos RMSE  14.049 m  angle RMSE  1.281 deg  (acq   2.5s, train   2.2s)
+  [weak s0] labels   55  calib err 0.2327 (after SL 0.2259)  median pos err  0.317 m  pos RMSE  14.054 m  angle RMSE  1.282 deg  (acq   2.5s, train   2.2s)
+  [weak s0] labels   60  calib err 0.2102 (after SL 0.2332)  median pos err  0.317 m  pos RMSE  14.173 m  angle RMSE  1.287 deg  (acq   2.5s, train   2.1s)
+  saved C:\Users\SWIMS\Downloads\SSLISAC-main\final-report-work\methods\results\hardware_study_20261108-160301\hw3101_th10\active_weak_hw3101_s0_th10_cpu_20261108-160304.npz
+*** rule trace, seed 0 ***
+  [trace s0] labels   10  calib err 0.3793 (after SL 0.6599)  median pos err  0.375 m  pos RMSE  14.027 m  angle RMSE  1.298 deg  (acq   0.0s, train   2.0s)
+  [trace s0] labels   15  calib err 0.2639 (after SL 0.3799)  median pos err  0.315 m  pos RMSE  15.194 m  angle RMSE  1.288 deg  (acq   2.2s, train   2.1s)
+  [trace s0] labels   20  calib err 0.2287 (after SL 0.2706)  median pos err  0.325 m  pos RMSE  15.192 m  angle RMSE  1.284 deg  (acq   2.2s, train   2.2s)
+  [trace s0] labels   25  calib err 0.2467 (after SL 0.2292)  median pos err  0.321 m  pos RMSE  15.191 m  angle RMSE  1.286 deg  (acq   2.3s, train   2.1s)
+  [trace s0] labels   30  calib err 0.2495 (after SL 0.2455)  median pos err  0.325 m  pos RMSE  15.930 m  angle RMSE  1.149 deg  (acq   2.3s, train   2.1s)
+  [trace s0] labels   35  calib err 0.2391 (after SL 0.2504)  median pos err  0.317 m  pos RMSE  14.054 m  angle RMSE  1.282 deg  (acq   2.3s, train   2.1s)
+  [trace s0] labels   40  calib err 0.2122 (after SL 0.2432)  median pos err  0.317 m  pos RMSE  15.200 m  angle RMSE  1.287 deg  (acq   2.4s, train   2.2s)
+  [trace s0] labels   45  calib err 0.2277 (after SL 0.2148)  median pos err  0.317 m  pos RMSE  14.054 m  angle RMSE  1.282 deg  (acq   2.4s, train   2.2s)
+  [trace s0] labels   50  calib err 0.2227 (after SL 0.2318)  median pos err  0.321 m  pos RMSE  14.049 m  angle RMSE  1.281 deg  (acq   2.4s, train   2.1s)
+  [trace s0] labels   55  calib err 0.2327 (after SL 0.2259)  median pos err  0.317 m  pos RMSE  14.054 m  angle RMSE  1.282 deg  (acq   2.5s, train   2.1s)
+  [trace s0] labels   60  calib err 0.2102 (after SL 0.2332)  median pos err  0.317 m  pos RMSE  14.173 m  angle RMSE  1.287 deg  (acq   2.6s, train   2.1s)
+  saved C:\Users\SWIMS\Downloads\SSLISAC-main\final-report-work\methods\results\hardware_study_20261108-160301\hw3101_th10\active_trace_hw3101_s0_th10_cpu_20261108-160304.npz
+*** rule full, seed 0 ***
+  [full s0] labels   10  calib err 0.3793 (after SL 0.6599)  median pos err  0.375 m  pos RMSE  14.027 m  angle RMSE  1.298 deg  (acq   0.0s, train   2.0s)
+  [full s0] labels   15  calib err 0.2639 (after SL 0.3799)  median pos err  0.315 m  pos RMSE  15.194 m  angle RMSE  1.288 deg  (acq   2.4s, train   2.2s)
+  [full s0] labels   20  calib err 0.2287 (after SL 0.2706)  median pos err  0.325 m  pos RMSE  15.192 m  angle RMSE  1.284 deg  (acq   2.4s, train   2.1s)
+  [full s0] labels   25  calib err 0.2467 (after SL 0.2292)  median pos err  0.321 m  pos RMSE  15.191 m  angle RMSE  1.286 deg  (acq   2.5s, train   2.1s)
+  [full s0] labels   30  calib err 0.2495 (after SL 0.2455)  median pos err  0.325 m  pos RMSE  15.930 m  angle RMSE  1.149 deg  (acq   2.6s, train   2.2s)
+  [full s0] labels   35  calib err 0.2391 (after SL 0.2504)  median pos err  0.317 m  pos RMSE  14.054 m  angle RMSE  1.282 deg  (acq   2.6s, train   2.1s)
+  [full s0] labels   40  calib err 0.2122 (after SL 0.2432)  median pos err  0.317 m  pos RMSE  15.200 m  angle RMSE  1.287 deg  (acq   2.6s, train   2.2s)
+  [full s0] labels   45  calib err 0.2277 (after SL 0.2148)  median pos err  0.317 m  pos RMSE  14.054 m  angle RMSE  1.282 deg  (acq   2.6s, train   2.1s)
+  [full s0] labels   50  calib err 0.2227 (after SL 0.2318)  median pos err  0.321 m  pos RMSE  14.049 m  angle RMSE  1.281 deg  (acq   2.7s, train   2.1s)
+  [full s0] labels   55  calib err 0.2327 (after SL 0.2259)  median pos err  0.317 m  pos RMSE  14.054 m  angle RMSE  1.282 deg  (acq   2.7s, train   2.2s)
+  [full s0] labels   60  calib err 0.2102 (after SL 0.2332)  median pos err  0.317 m  pos RMSE  14.173 m  angle RMSE  1.287 deg  (acq   2.7s, train   2.2s)
+  saved C:\Users\SWIMS\Downloads\SSLISAC-main\final-report-work\methods\results\hardware_study_20261108-160301\hw3101_th10\active_full_hw3101_s0_th10_cpu_20261108-160304.npz
+*** rule random, seed 0 ***
+  [random s0] labels   10  calib err 0.3793 (after SL 0.6599)  median pos err  0.375 m  pos RMSE  14.027 m  angle RMSE  1.298 deg  (acq   0.0s, train   1.9s)
+  [random s0] labels   15  calib err 0.2639 (after SL 0.3789)  median pos err  0.315 m  pos RMSE  15.195 m  angle RMSE  1.288 deg  (acq   0.0s, train   2.0s)
+  [random s0] labels   20  calib err 0.2268 (after SL 0.2702)  median pos err  0.324 m  pos RMSE  15.300 m  angle RMSE  1.289 deg  (acq   0.0s, train   2.0s)
+  [random s0] labels   25  calib err 0.2457 (after SL 0.2908)  median pos err  0.325 m  pos RMSE  14.170 m  angle RMSE  1.284 deg  (acq   0.0s, train   2.0s)
+  [random s0] labels   30  calib err 0.2425 (after SL 0.2797)  median pos err  0.336 m  pos RMSE  14.170 m  angle RMSE  1.284 deg  (acq   0.0s, train   2.0s)
+  [random s0] labels   35  calib err 0.2588 (after SL 0.2885)  median pos err  0.355 m  pos RMSE  14.169 m  angle RMSE  1.282 deg  (acq   0.0s, train   2.0s)
+  [random s0] labels   40  calib err 0.2420 (after SL 0.2854)  median pos err  0.365 m  pos RMSE  14.169 m  angle RMSE  1.280 deg  (acq   0.0s, train   2.0s)
+  [random s0] labels   45  calib err 0.2593 (after SL 0.2924)  median pos err  0.362 m  pos RMSE  14.167 m  angle RMSE  1.279 deg  (acq   0.0s, train   2.0s)
+  [random s0] labels   50  calib err 0.2471 (after SL 0.2642)  median pos err  0.359 m  pos RMSE  14.167 m  angle RMSE  1.283 deg  (acq   0.0s, train   2.0s)
+  [random s0] labels   55  calib err 0.2514 (after SL 0.2709)  median pos err  0.349 m  pos RMSE  14.166 m  angle RMSE  1.280 deg  (acq   0.0s, train   2.0s)
+  [random s0] labels   60  calib err 0.2370 (after SL 0.2712)  median pos err  0.357 m  pos RMSE  14.169 m  angle RMSE  1.283 deg  (acq   0.0s, train   2.0s)
+  saved C:\Users\SWIMS\Downloads\SSLISAC-main\final-report-work\methods\results\hardware_study_20261108-160301\hw3101_th10\active_random_hw3101_s0_th10_cpu_20261108-160304.npz
+*** rule fixed, seed 0 ***
+  [fixed s0] labels   10  calib err 0.3793 (after SL 0.6599)  median pos err  0.375 m  pos RMSE  14.027 m  angle RMSE  1.298 deg  (acq   0.0s, train   1.9s)
+  [fixed s0] labels   10  calib err 0.2604 (after SL 0.3787)  median pos err  0.325 m  pos RMSE  14.176 m  angle RMSE  1.293 deg  (acq   0.0s, train   2.0s)
+  [fixed s0] labels   10  calib err 0.2269 (after SL 0.2634)  median pos err  0.319 m  pos RMSE  14.171 m  angle RMSE  1.285 deg  (acq   0.0s, train   2.0s)
+  [fixed s0] labels   10  calib err 0.2365 (after SL 0.2302)  median pos err  0.314 m  pos RMSE  14.170 m  angle RMSE  1.284 deg  (acq   0.0s, train   2.0s)
+  [fixed s0] labels   10  calib err 0.2315 (after SL 0.2417)  median pos err  0.324 m  pos RMSE  15.028 m  angle RMSE  1.289 deg  (acq   0.0s, train   2.0s)
+  [fixed s0] labels   10  calib err 0.2384 (after SL 0.2410)  median pos err  0.319 m  pos RMSE  14.170 m  angle RMSE  1.284 deg  (acq   0.0s, train   2.0s)
+  [fixed s0] labels   10  calib err 0.2086 (after SL 0.2498)  median pos err  0.327 m  pos RMSE  14.170 m  angle RMSE  1.283 deg  (acq   0.0s, train   2.0s)
+  [fixed s0] labels   10  calib err 0.2256 (after SL 0.2126)  median pos err  0.317 m  pos RMSE  14.170 m  angle RMSE  1.283 deg  (acq   0.0s, train   2.0s)
+  [fixed s0] labels   10  calib err 0.2207 (after SL 0.2360)  median pos err  0.325 m  pos RMSE  13.877 m  angle RMSE  1.284 deg  (acq   0.0s, train   1.9s)
+  [fixed s0] labels   10  calib err 0.2299 (after SL 0.2294)  median pos err  0.317 m  pos RMSE  14.170 m  angle RMSE  1.284 deg  (acq   0.0s, train   2.0s)
+  [fixed s0] labels   10  calib err 0.2119 (after SL 0.2388)  median pos err  0.324 m  pos RMSE  14.170 m  angle RMSE  1.283 deg  (acq   0.0s, train   2.0s)
+  saved C:\Users\SWIMS\Downloads\SSLISAC-main\final-report-work\methods\results\hardware_study_20261108-160301\hw3101_th10\active_fixed_hw3101_s0_th10_cpu_20261108-160304.npz
+*** rule weak, seed 1 ***
+  [weak s1] labels   10  calib err 0.5001 (after SL 0.6584)  median pos err  0.517 m  pos RMSE  18.675 m  angle RMSE  1.714 deg  (acq   0.0s, train   1.9s)
+  [weak s1] labels   15  calib err 0.3696 (after SL 0.4782)  median pos err  0.480 m  pos RMSE  18.124 m  angle RMSE  1.534 deg  (acq   2.2s, train   2.1s)
+  [weak s1] labels   20  calib err 0.2483 (after SL 0.3184)  median pos err  0.357 m  pos RMSE  15.175 m  angle RMSE  1.296 deg  (acq   2.3s, train   2.1s)
+  [weak s1] labels   25  calib err 0.1970 (after SL 0.2405)  median pos err  0.321 m  pos RMSE  16.386 m  angle RMSE  1.246 deg  (acq   2.3s, train   2.1s)
+  [weak s1] labels   30  calib err 0.1979 (after SL 0.2001)  median pos err  0.313 m  pos RMSE  15.109 m  angle RMSE  1.269 deg  (acq   2.3s, train   2.2s)
+  [weak s1] labels   35  calib err 0.2039 (after SL 0.2004)  median pos err  0.314 m  pos RMSE  15.190 m  angle RMSE  1.267 deg  (acq   2.3s, train   2.1s)
+  [weak s1] labels   40  calib err 0.1974 (after SL 0.2060)  median pos err  0.314 m  pos RMSE  16.911 m  angle RMSE  1.245 deg  (acq   2.5s, train   2.1s)
+  [weak s1] labels   45  calib err 0.1995 (after SL 0.2317)  median pos err  0.312 m  pos RMSE  14.745 m  angle RMSE  1.270 deg  (acq   2.4s, train   2.1s)
+  [weak s1] labels   50  calib err 0.1997 (after SL 0.2015)  median pos err  0.314 m  pos RMSE  14.744 m  angle RMSE  1.269 deg  (acq   2.5s, train   2.2s)
+  [weak s1] labels   55  calib err 0.1864 (after SL 0.2019)  median pos err  0.315 m  pos RMSE  15.247 m  angle RMSE  1.270 deg  (acq   2.5s, train   2.1s)
+  [weak s1] labels   60  calib err 0.2017 (after SL 0.1895)  median pos err  0.313 m  pos RMSE  15.191 m  angle RMSE  1.268 deg  (acq   2.5s, train   2.1s)
+  saved C:\Users\SWIMS\Downloads\SSLISAC-main\final-report-work\methods\results\hardware_study_20261108-160301\hw3101_th10\active_weak_hw3101_s1_th10_cpu_20261108-160304.npz
+*** rule trace, seed 1 ***
+  [trace s1] labels   10  calib err 0.5001 (after SL 0.6584)  median pos err  0.517 m  pos RMSE  18.675 m  angle RMSE  1.714 deg  (acq   0.0s, train   2.0s)
+  [trace s1] labels   15  calib err 0.3696 (after SL 0.4782)  median pos err  0.480 m  pos RMSE  18.124 m  angle RMSE  1.534 deg  (acq   2.2s, train   2.1s)
+  [trace s1] labels   20  calib err 0.2483 (after SL 0.3184)  median pos err  0.357 m  pos RMSE  15.175 m  angle RMSE  1.296 deg  (acq   2.2s, train   2.3s)
+  [trace s1] labels   25  calib err 0.1970 (after SL 0.2405)  median pos err  0.321 m  pos RMSE  16.386 m  angle RMSE  1.246 deg  (acq   2.3s, train   2.2s)
+  [trace s1] labels   30  calib err 0.1979 (after SL 0.2001)  median pos err  0.313 m  pos RMSE  15.109 m  angle RMSE  1.269 deg  (acq   2.3s, train   2.3s)
+  [trace s1] labels   35  calib err 0.2039 (after SL 0.2004)  median pos err  0.314 m  pos RMSE  15.190 m  angle RMSE  1.267 deg  (acq   2.3s, train   2.4s)
+  [trace s1] labels   40  calib err 0.1974 (after SL 0.2060)  median pos err  0.314 m  pos RMSE  16.911 m  angle RMSE  1.245 deg  (acq   2.4s, train   2.4s)
+  [trace s1] labels   45  calib err 0.1995 (after SL 0.2317)  median pos err  0.312 m  pos RMSE  14.745 m  angle RMSE  1.270 deg  (acq   2.4s, train   2.1s)
+  [trace s1] labels   50  calib err 0.1997 (after SL 0.2015)  median pos err  0.314 m  pos RMSE  14.744 m  angle RMSE  1.269 deg  (acq   2.4s, train   2.1s)
+  [trace s1] labels   55  calib err 0.1864 (after SL 0.2019)  median pos err  0.315 m  pos RMSE  15.247 m  angle RMSE  1.270 deg  (acq   2.5s, train   2.1s)
+  [trace s1] labels   60  calib err 0.2017 (after SL 0.1895)  median pos err  0.313 m  pos RMSE  15.191 m  angle RMSE  1.268 deg  (acq   2.5s, train   2.1s)
+  saved C:\Users\SWIMS\Downloads\SSLISAC-main\final-report-work\methods\results\hardware_study_20261108-160301\hw3101_th10\active_trace_hw3101_s1_th10_cpu_20261108-160304.npz
+*** rule full, seed 1 ***
+  [full s1] labels   10  calib err 0.5001 (after SL 0.6584)  median pos err  0.517 m  pos RMSE  18.675 m  angle RMSE  1.714 deg  (acq   0.0s, train   2.0s)
+  [full s1] labels   15  calib err 0.3696 (after SL 0.4782)  median pos err  0.480 m  pos RMSE  18.124 m  angle RMSE  1.534 deg  (acq   2.4s, train   2.1s)
+  [full s1] labels   20  calib err 0.2483 (after SL 0.3184)  median pos err  0.357 m  pos RMSE  15.175 m  angle RMSE  1.296 deg  (acq   2.5s, train   2.1s)
+  [full s1] labels   25  calib err 0.1970 (after SL 0.2405)  median pos err  0.321 m  pos RMSE  16.386 m  angle RMSE  1.246 deg  (acq   2.5s, train   2.1s)
+  [full s1] labels   30  calib err 0.1979 (after SL 0.2001)  median pos err  0.313 m  pos RMSE  15.109 m  angle RMSE  1.269 deg  (acq   2.5s, train   2.2s)
+  [full s1] labels   35  calib err 0.2039 (after SL 0.2004)  median pos err  0.314 m  pos RMSE  15.190 m  angle RMSE  1.267 deg  (acq   2.6s, train   2.3s)
+  [full s1] labels   40  calib err 0.1974 (after SL 0.2060)  median pos err  0.314 m  pos RMSE  16.911 m  angle RMSE  1.245 deg  (acq   2.6s, train   2.3s)
+  [full s1] labels   45  calib err 0.1995 (after SL 0.2317)  median pos err  0.312 m  pos RMSE  14.745 m  angle RMSE  1.270 deg  (acq   2.7s, train   2.3s)
+  [full s1] labels   50  calib err 0.1997 (after SL 0.2015)  median pos err  0.314 m  pos RMSE  14.744 m  angle RMSE  1.269 deg  (acq   2.7s, train   2.4s)
+  [full s1] labels   55  calib err 0.1864 (after SL 0.2019)  median pos err  0.315 m  pos RMSE  15.247 m  angle RMSE  1.270 deg  (acq   2.8s, train   2.1s)
+  [full s1] labels   60  calib err 0.2017 (after SL 0.1895)  median pos err  0.313 m  pos RMSE  15.191 m  angle RMSE  1.268 deg  (acq   2.8s, train   2.2s)
+  saved C:\Users\SWIMS\Downloads\SSLISAC-main\final-report-work\methods\results\hardware_study_20261108-160301\hw3101_th10\active_full_hw3101_s1_th10_cpu_20261108-160304.npz
+*** rule random, seed 1 ***
+  [random s1] labels   10  calib err 0.5001 (after SL 0.6584)  median pos err  0.517 m  pos RMSE  18.675 m  angle RMSE  1.714 deg  (acq   0.0s, train   2.0s)
+  [random s1] labels   15  calib err 0.3801 (after SL 0.4893)  median pos err  0.488 m  pos RMSE  16.883 m  angle RMSE  1.538 deg  (acq   0.0s, train   2.0s)
+  [random s1] labels   20  calib err 0.2898 (after SL 0.3876)  median pos err  0.433 m  pos RMSE  18.053 m  angle RMSE  1.511 deg  (acq   0.0s, train   2.0s)
+  [random s1] labels   25  calib err 0.2202 (after SL 0.3085)  median pos err  0.361 m  pos RMSE  16.503 m  angle RMSE  1.483 deg  (acq   0.0s, train   2.0s)
+  [random s1] labels   30  calib err 0.2041 (after SL 0.2263)  median pos err  0.326 m  pos RMSE  13.273 m  angle RMSE  1.241 deg  (acq   0.0s, train   2.0s)
+  [random s1] labels   35  calib err 0.2064 (after SL 0.2160)  median pos err  0.313 m  pos RMSE  15.780 m  angle RMSE  1.243 deg  (acq   0.0s, train   2.0s)
+  [random s1] labels   40  calib err 0.2011 (after SL 0.2223)  median pos err  0.315 m  pos RMSE  15.720 m  angle RMSE  1.239 deg  (acq   0.0s, train   2.0s)
+  [random s1] labels   45  calib err 0.2115 (after SL 0.2548)  median pos err  0.316 m  pos RMSE  15.233 m  angle RMSE  1.237 deg  (acq   0.0s, train   2.0s)
+  [random s1] labels   50  calib err 0.2068 (after SL 0.2108)  median pos err  0.317 m  pos RMSE  13.269 m  angle RMSE  1.234 deg  (acq   0.0s, train   1.9s)
+  [random s1] labels   55  calib err 0.1989 (after SL 0.2342)  median pos err  0.319 m  pos RMSE  14.010 m  angle RMSE  1.231 deg  (acq   0.0s, train   1.9s)
+  [random s1] labels   60  calib err 0.2121 (after SL 0.2014)  median pos err  0.317 m  pos RMSE  13.337 m  angle RMSE  1.231 deg  (acq   0.0s, train   1.9s)
+  saved C:\Users\SWIMS\Downloads\SSLISAC-main\final-report-work\methods\results\hardware_study_20261108-160301\hw3101_th10\active_random_hw3101_s1_th10_cpu_20261108-160304.npz
+*** rule fixed, seed 1 ***
+  [fixed s1] labels   10  calib err 0.5001 (after SL 0.6584)  median pos err  0.517 m  pos RMSE  18.675 m  angle RMSE  1.714 deg  (acq   0.0s, train   2.0s)
+  [fixed s1] labels   10  calib err 0.3726 (after SL 0.4847)  median pos err  0.484 m  pos RMSE  16.883 m  angle RMSE  1.536 deg  (acq   0.0s, train   2.0s)
+  [fixed s1] labels   10  calib err 0.2779 (after SL 0.3450)  median pos err  0.418 m  pos RMSE  16.902 m  angle RMSE  1.295 deg  (acq   0.0s, train   2.0s)
+  [fixed s1] labels   10  calib err 0.2083 (after SL 0.2613)  median pos err  0.348 m  pos RMSE  16.843 m  angle RMSE  1.253 deg  (acq   0.0s, train   1.9s)
+  [fixed s1] labels   10  calib err 0.2012 (after SL 0.2336)  median pos err  0.315 m  pos RMSE  14.315 m  angle RMSE  1.264 deg  (acq   0.0s, train   2.0s)
+  [fixed s1] labels   10  calib err 0.2061 (after SL 0.2133)  median pos err  0.313 m  pos RMSE  15.107 m  angle RMSE  1.266 deg  (acq   0.0s, train   2.0s)
+  [fixed s1] labels   10  calib err 0.1990 (after SL 0.2155)  median pos err  0.314 m  pos RMSE  16.911 m  angle RMSE  1.245 deg  (acq   0.0s, train   2.0s)
+  [fixed s1] labels   10  calib err 0.1992 (after SL 0.2071)  median pos err  0.314 m  pos RMSE  16.383 m  angle RMSE  1.241 deg  (acq   0.0s, train   2.0s)
+  [fixed s1] labels   10  calib err 0.2033 (after SL 0.2187)  median pos err  0.314 m  pos RMSE  14.599 m  angle RMSE  1.265 deg  (acq   0.0s, train   1.9s)
+  [fixed s1] labels   10  calib err 0.1888 (after SL 0.2226)  median pos err  0.314 m  pos RMSE  15.108 m  angle RMSE  1.268 deg  (acq   0.0s, train   2.0s)
+  [fixed s1] labels   10  calib err 0.2069 (after SL 0.2325)  median pos err  0.315 m  pos RMSE  14.917 m  angle RMSE  1.267 deg  (acq   0.0s, train   2.0s)
+  saved C:\Users\SWIMS\Downloads\SSLISAC-main\final-report-work\methods\results\hardware_study_20261108-160301\hw3101_th10\active_fixed_hw3101_s1_th10_cpu_20261108-160304.npz
+*** rule weak, seed 2 ***
+  [weak s2] labels   10  calib err 0.2900 (after SL 0.6392)  median pos err  0.314 m  pos RMSE  15.108 m  angle RMSE  1.267 deg  (acq   0.0s, train   1.9s)
+  [weak s2] labels   15  calib err 0.2112 (after SL 0.2955)  median pos err  0.314 m  pos RMSE  14.473 m  angle RMSE  1.259 deg  (acq   2.2s, train   2.2s)
+  [weak s2] labels   20  calib err 0.2135 (after SL 0.2285)  median pos err  0.317 m  pos RMSE  15.107 m  angle RMSE  1.265 deg  (acq   2.2s, train   2.1s)
+  [weak s2] labels   25  calib err 0.1837 (after SL 0.2350)  median pos err  0.317 m  pos RMSE  16.207 m  angle RMSE  1.241 deg  (acq   2.3s, train   2.2s)
+  [weak s2] labels   30  calib err 0.2001 (after SL 0.1986)  median pos err  0.317 m  pos RMSE  15.108 m  angle RMSE  1.268 deg  (acq   2.3s, train   2.1s)
+  [weak s2] labels   35  calib err 0.2131 (after SL 0.2164)  median pos err  0.317 m  pos RMSE  14.744 m  angle RMSE  1.269 deg  (acq   2.3s, train   2.2s)
+  [weak s2] labels   40  calib err 0.1992 (after SL 0.2370)  median pos err  0.313 m  pos RMSE  16.892 m  angle RMSE  1.244 deg  (acq   2.4s, train   2.3s)
+  [weak s2] labels   45  calib err 0.2073 (after SL 0.2222)  median pos err  0.315 m  pos RMSE  15.109 m  angle RMSE  1.270 deg  (acq   2.4s, train   2.1s)
+  [weak s2] labels   50  calib err 0.2025 (after SL 0.2465)  median pos err  0.314 m  pos RMSE  16.838 m  angle RMSE  1.244 deg  (acq   2.5s, train   2.1s)
+  [weak s2] labels   55  calib err 0.2651 (after SL 0.2563)  median pos err  0.317 m  pos RMSE  16.836 m  angle RMSE  1.241 deg  (acq   2.5s, train   2.2s)
+  [weak s2] labels   60  calib err 0.2231 (after SL 0.2898)  median pos err  0.319 m  pos RMSE  14.835 m  angle RMSE  1.270 deg  (acq   2.5s, train   2.1s)
+  saved C:\Users\SWIMS\Downloads\SSLISAC-main\final-report-work\methods\results\hardware_study_20261108-160301\hw3101_th10\active_weak_hw3101_s2_th10_cpu_20261108-160304.npz
+*** rule trace, seed 2 ***
+  [trace s2] labels   10  calib err 0.2900 (after SL 0.6392)  median pos err  0.314 m  pos RMSE  15.108 m  angle RMSE  1.267 deg  (acq   0.0s, train   2.0s)
+  [trace s2] labels   15  calib err 0.2112 (after SL 0.2955)  median pos err  0.314 m  pos RMSE  14.473 m  angle RMSE  1.259 deg  (acq   2.2s, train   2.1s)
+  [trace s2] labels   20  calib err 0.2135 (after SL 0.2285)  median pos err  0.317 m  pos RMSE  15.107 m  angle RMSE  1.265 deg  (acq   2.2s, train   2.1s)
+  [trace s2] labels   25  calib err 0.1837 (after SL 0.2350)  median pos err  0.317 m  pos RMSE  16.207 m  angle RMSE  1.241 deg  (acq   2.3s, train   2.1s)
+  [trace s2] labels   30  calib err 0.2001 (after SL 0.1986)  median pos err  0.317 m  pos RMSE  15.108 m  angle RMSE  1.268 deg  (acq   2.3s, train   2.1s)
+  [trace s2] labels   35  calib err 0.2131 (after SL 0.2164)  median pos err  0.317 m  pos RMSE  14.744 m  angle RMSE  1.269 deg  (acq   2.4s, train   2.2s)
+  [trace s2] labels   40  calib err 0.1992 (after SL 0.2370)  median pos err  0.313 m  pos RMSE  16.892 m  angle RMSE  1.244 deg  (acq   2.4s, train   2.2s)
+  [trace s2] labels   45  calib err 0.2073 (after SL 0.2222)  median pos err  0.315 m  pos RMSE  15.109 m  angle RMSE  1.270 deg  (acq   2.4s, train   2.2s)
+  [trace s2] labels   50  calib err 0.2025 (after SL 0.2465)  median pos err  0.314 m  pos RMSE  16.838 m  angle RMSE  1.244 deg  (acq   2.5s, train   2.2s)
+  [trace s2] labels   55  calib err 0.2651 (after SL 0.2563)  median pos err  0.317 m  pos RMSE  16.836 m  angle RMSE  1.241 deg  (acq   2.5s, train   2.1s)
+  [trace s2] labels   60  calib err 0.2231 (after SL 0.2898)  median pos err  0.319 m  pos RMSE  14.835 m  angle RMSE  1.270 deg  (acq   2.5s, train   2.2s)
+  saved C:\Users\SWIMS\Downloads\SSLISAC-main\final-report-work\methods\results\hardware_study_20261108-160301\hw3101_th10\active_trace_hw3101_s2_th10_cpu_20261108-160304.npz
+*** rule full, seed 2 ***
+  [full s2] labels   10  calib err 0.2900 (after SL 0.6392)  median pos err  0.314 m  pos RMSE  15.108 m  angle RMSE  1.267 deg  (acq   0.0s, train   2.0s)
+  [full s2] labels   15  calib err 0.2112 (after SL 0.2955)  median pos err  0.314 m  pos RMSE  14.473 m  angle RMSE  1.259 deg  (acq   2.5s, train   2.2s)
+  [full s2] labels   20  calib err 0.2135 (after SL 0.2285)  median pos err  0.317 m  pos RMSE  15.107 m  angle RMSE  1.265 deg  (acq   2.5s, train   2.2s)
+  [full s2] labels   25  calib err 0.1837 (after SL 0.2350)  median pos err  0.317 m  pos RMSE  16.207 m  angle RMSE  1.241 deg  (acq   2.5s, train   2.1s)
+  [full s2] labels   30  calib err 0.2001 (after SL 0.1986)  median pos err  0.317 m  pos RMSE  15.108 m  angle RMSE  1.268 deg  (acq   2.5s, train   2.2s)
+  [full s2] labels   35  calib err 0.2131 (after SL 0.2164)  median pos err  0.317 m  pos RMSE  14.744 m  angle RMSE  1.269 deg  (acq   2.6s, train   2.1s)
+  [full s2] labels   40  calib err 0.1992 (after SL 0.2370)  median pos err  0.313 m  pos RMSE  16.892 m  angle RMSE  1.244 deg  (acq   2.6s, train   2.2s)
+  [full s2] labels   45  calib err 0.2073 (after SL 0.2222)  median pos err  0.315 m  pos RMSE  15.109 m  angle RMSE  1.270 deg  (acq   2.6s, train   2.1s)
+  [full s2] labels   50  calib err 0.2025 (after SL 0.2465)  median pos err  0.314 m  pos RMSE  16.838 m  angle RMSE  1.244 deg  (acq   2.7s, train   2.1s)
+  [full s2] labels   55  calib err 0.2651 (after SL 0.2563)  median pos err  0.317 m  pos RMSE  16.836 m  angle RMSE  1.241 deg  (acq   2.7s, train   2.1s)
+  [full s2] labels   60  calib err 0.2231 (after SL 0.2898)  median pos err  0.319 m  pos RMSE  14.835 m  angle RMSE  1.270 deg  (acq   2.8s, train   2.1s)
+  saved C:\Users\SWIMS\Downloads\SSLISAC-main\final-report-work\methods\results\hardware_study_20261108-160301\hw3101_th10\active_full_hw3101_s2_th10_cpu_20261108-160304.npz
+*** rule random, seed 2 ***
+  [random s2] labels   10  calib err 0.2900 (after SL 0.6392)  median pos err  0.314 m  pos RMSE  15.108 m  angle RMSE  1.267 deg  (acq   0.0s, train   1.9s)
+  [random s2] labels   15  calib err 0.2151 (after SL 0.2922)  median pos err  0.317 m  pos RMSE  15.107 m  angle RMSE  1.266 deg  (acq   0.0s, train   2.0s)
+  [random s2] labels   20  calib err 0.2119 (after SL 0.2740)  median pos err  0.313 m  pos RMSE  15.108 m  angle RMSE  1.268 deg  (acq   0.0s, train   2.0s)
+  [random s2] labels   25  calib err 0.1843 (after SL 0.2108)  median pos err  0.317 m  pos RMSE  15.188 m  angle RMSE  1.264 deg  (acq   0.0s, train   2.0s)
+  [random s2] labels   30  calib err 0.1975 (after SL 0.2080)  median pos err  0.314 m  pos RMSE  15.108 m  angle RMSE  1.269 deg  (acq   0.0s, train   2.0s)
+  [random s2] labels   35  calib err 0.2098 (after SL 0.2058)  median pos err  0.314 m  pos RMSE  15.109 m  angle RMSE  1.270 deg  (acq   0.0s, train   2.0s)
+  [random s2] labels   40  calib err 0.1992 (after SL 0.2463)  median pos err  0.313 m  pos RMSE  16.439 m  angle RMSE  1.243 deg  (acq   0.0s, train   2.0s)
+  [random s2] labels   45  calib err 0.2455 (after SL 0.3931)  median pos err  0.324 m  pos RMSE  16.460 m  angle RMSE  1.238 deg  (acq   0.0s, train   2.0s)
+  [random s2] labels   50  calib err 0.2299 (after SL 0.3169)  median pos err  0.327 m  pos RMSE  17.419 m  angle RMSE  1.230 deg  (acq   0.0s, train   2.0s)
+  [random s2] labels   55  calib err 0.2769 (after SL 0.3188)  median pos err  0.355 m  pos RMSE  15.713 m  angle RMSE  1.294 deg  (acq   0.0s, train   2.0s)
+  [random s2] labels   60  calib err 0.2408 (after SL 0.2847)  median pos err  0.338 m  pos RMSE  17.577 m  angle RMSE  1.335 deg  (acq   0.0s, train   2.0s)
+  saved C:\Users\SWIMS\Downloads\SSLISAC-main\final-report-work\methods\results\hardware_study_20261108-160301\hw3101_th10\active_random_hw3101_s2_th10_cpu_20261108-160304.npz
+*** rule fixed, seed 2 ***
+  [fixed s2] labels   10  calib err 0.2900 (after SL 0.6392)  median pos err  0.314 m  pos RMSE  15.108 m  angle RMSE  1.267 deg  (acq   0.0s, train   2.0s)
+  [fixed s2] labels   10  calib err 0.2119 (after SL 0.2950)  median pos err  0.312 m  pos RMSE  14.474 m  angle RMSE  1.262 deg  (acq   0.0s, train   2.0s)
+  [fixed s2] labels   10  calib err 0.2157 (after SL 0.2357)  median pos err  0.322 m  pos RMSE  16.128 m  angle RMSE  1.236 deg  (acq   0.0s, train   2.0s)
+  [fixed s2] labels   10  calib err 0.1859 (after SL 0.2282)  median pos err  0.319 m  pos RMSE  14.314 m  angle RMSE  1.263 deg  (acq   0.0s, train   2.1s)
+  [fixed s2] labels   10  calib err 0.1979 (after SL 0.2025)  median pos err  0.316 m  pos RMSE  14.276 m  angle RMSE  1.263 deg  (acq   0.0s, train   2.0s)
+  [fixed s2] labels   10  calib err 0.2128 (after SL 0.2253)  median pos err  0.319 m  pos RMSE  14.828 m  angle RMSE  1.269 deg  (acq   0.0s, train   2.0s)
+  [fixed s2] labels   10  calib err 0.2011 (after SL 0.2270)  median pos err  0.314 m  pos RMSE  16.439 m  angle RMSE  1.242 deg  (acq   0.0s, train   2.0s)
+  [fixed s2] labels   10  calib err 0.2118 (after SL 0.2251)  median pos err  0.315 m  pos RMSE  15.108 m  angle RMSE  1.267 deg  (acq   0.0s, train   1.9s)
+  [fixed s2] labels   10  calib err 0.2038 (after SL 0.2439)  median pos err  0.317 m  pos RMSE  16.383 m  angle RMSE  1.240 deg  (acq   0.0s, train   1.9s)
+  [fixed s2] labels   10  calib err 0.2645 (after SL 0.2365)  median pos err  0.323 m  pos RMSE  15.107 m  angle RMSE  1.268 deg  (acq   0.0s, train   1.9s)
+  [fixed s2] labels   10  calib err 0.2233 (after SL 0.2545)  median pos err  0.317 m  pos RMSE  15.092 m  angle RMSE  1.279 deg  (acq   0.0s, train   1.9s)
+  saved C:\Users\SWIMS\Downloads\SSLISAC-main\final-report-work\methods\results\hardware_study_20261108-160301\hw3101_th10\active_fixed_hw3101_s2_th10_cpu_20261108-160304.npz
+
+rule         seed  labels  calib err (start -> end)  pos RMSE [m]  acq time [s]
+weak            0      60  0.3793 -> 0.2102            14.173         23.9
+trace           0      60  0.3793 -> 0.2102            14.173         23.6
+full            0      60  0.3793 -> 0.2102            14.173         25.9
+random          0      60  0.3793 -> 0.2370            14.169          0.0
+fixed           0      10  0.3793 -> 0.2119            14.170          0.0
+weak            1      60  0.5001 -> 0.2017            15.191         23.8
+trace           1      60  0.5001 -> 0.2017            15.191         23.7
+full            1      60  0.5001 -> 0.2017            15.191         26.0
+random          1      60  0.5001 -> 0.2121            13.337          0.0
+fixed           1      10  0.5001 -> 0.2069            14.917          0.0
+weak            2      60  0.2900 -> 0.2231            14.835         23.7
+trace           2      60  0.2900 -> 0.2231            14.835         23.6
+full            2      60  0.2900 -> 0.2231            14.835         26.1
+random          2      60  0.2900 -> 0.2408            17.577          0.0
+fixed           2      10  0.2900 -> 0.2233            15.092          0.0

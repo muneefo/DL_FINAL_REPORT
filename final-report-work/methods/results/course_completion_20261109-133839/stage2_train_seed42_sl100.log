@@ -1,0 +1,177 @@
+*** Training started ***
+fraction_sl100_total85000_seed42: 100/85000; elapsed training 0.03 h
+*** Training started ***
+fraction_sl100_total85000_seed42: 1100/85000; elapsed training 0.29 h
+*** Training started ***
+fraction_sl100_total85000_seed42: 2100/85000; elapsed training 0.55 h
+*** Training started ***
+fraction_sl100_total85000_seed42: 3100/85000; elapsed training 0.81 h
+*** Training started ***
+fraction_sl100_total85000_seed42: 4100/85000; elapsed training 1.07 h
+*** Training started ***
+fraction_sl100_total85000_seed42: 5100/85000; elapsed training 1.33 h
+*** Training started ***
+fraction_sl100_total85000_seed42: 6100/85000; elapsed training 1.58 h
+*** Training started ***
+fraction_sl100_total85000_seed42: 7100/85000; elapsed training 1.84 h
+*** Training started ***
+fraction_sl100_total85000_seed42: 8100/85000; elapsed training 2.09 h
+*** Training started ***
+fraction_sl100_total85000_seed42: 9100/85000; elapsed training 2.35 h
+*** Training started ***
+fraction_sl100_total85000_seed42: 10100/85000; elapsed training 2.60 h
+*** Training started ***
+fraction_sl100_total85000_seed42: 11100/85000; elapsed training 2.86 h
+*** Training started ***
+fraction_sl100_total85000_seed42: 12100/85000; elapsed training 3.11 h
+*** Training started ***
+fraction_sl100_total85000_seed42: 13100/85000; elapsed training 3.37 h
+*** Training started ***
+fraction_sl100_total85000_seed42: 14100/85000; elapsed training 3.64 h
+*** Training started ***
+fraction_sl100_total85000_seed42: 15100/85000; elapsed training 3.89 h
+*** Training started ***
+fraction_sl100_total85000_seed42: 16100/85000; elapsed training 4.16 h
+*** Training started ***
+fraction_sl100_total85000_seed42: 17100/85000; elapsed training 4.42 h
+*** Training started ***
+fraction_sl100_total85000_seed42: 18100/85000; elapsed training 4.69 h
+*** Training started ***
+fraction_sl100_total85000_seed42: 19100/85000; elapsed training 4.96 h
+*** Training started ***
+fraction_sl100_total85000_seed42: 20100/85000; elapsed training 5.20 h
+*** Training started ***
+fraction_sl100_total85000_seed42: 21100/85000; elapsed training 5.45 h
+*** Training started ***
+fraction_sl100_total85000_seed42: 22100/85000; elapsed training 5.69 h
+*** Training started ***
+fraction_sl100_total85000_seed42: 23100/85000; elapsed training 5.94 h
+*** Training started ***
+fraction_sl100_total85000_seed42: 24100/85000; elapsed training 6.18 h
+*** Training started ***
+fraction_sl100_total85000_seed42: 25100/85000; elapsed training 6.42 h
+*** Training started ***
+fraction_sl100_total85000_seed42: 26100/85000; elapsed training 6.66 h
+*** Training started ***
+fraction_sl100_total85000_seed42: 27100/85000; elapsed training 6.91 h
+*** Training started ***
+fraction_sl100_total85000_seed42: 28100/85000; elapsed training 7.15 h
+*** Training started ***
+fraction_sl100_total85000_seed42: 29100/85000; elapsed training 7.39 h
+*** Training started ***
+fraction_sl100_total85000_seed42: 30100/85000; elapsed training 7.63 h
+*** Training started ***
+fraction_sl100_total85000_seed42: 31100/85000; elapsed training 7.88 h
+*** Training started ***
+fraction_sl100_total85000_seed42: 32100/85000; elapsed training 8.12 h
+*** Training started ***
+fraction_sl100_total85000_seed42: 33100/85000; elapsed training 8.36 h
+*** Training started ***
+fraction_sl100_total85000_seed42: 34100/85000; elapsed training 8.60 h
+*** Training started ***
+fraction_sl100_total85000_seed42: 35100/85000; elapsed training 8.85 h
+*** Training started ***
+fraction_sl100_total85000_seed42: 36100/85000; elapsed training 9.10 h
+*** Training started ***
+fraction_sl100_total85000_seed42: 37100/85000; elapsed training 9.37 h
+*** Training started ***
+fraction_sl100_total85000_seed42: 38100/85000; elapsed training 9.64 h
+*** Training started ***
+fraction_sl100_total85000_seed42: 39100/85000; elapsed training 9.91 h
+*** Training started ***
+fraction_sl100_total85000_seed42: 40100/85000; elapsed training 10.18 h
+*** Training started ***
+fraction_sl100_total85000_seed42: 41100/85000; elapsed training 10.45 h
+*** Training started ***
+fraction_sl100_total85000_seed42: 42100/85000; elapsed training 10.72 h
+*** Training started ***
+fraction_sl100_total85000_seed42: 43100/85000; elapsed training 10.99 h
+*** Training started ***
+fraction_sl100_total85000_seed42: 44100/85000; elapsed training 11.26 h
+*** Training started ***
+fraction_sl100_total85000_seed42: 45100/85000; elapsed training 11.53 h
+*** Training started ***
+fraction_sl100_total85000_seed42: 46100/85000; elapsed training 11.80 h
+*** Training started ***
+fraction_sl100_total85000_seed42: 47100/85000; elapsed training 12.07 h
+*** Training started ***
+fraction_sl100_total85000_seed42: 48100/85000; elapsed training 12.34 h
+*** Training started ***
+fraction_sl100_total85000_seed42: 49100/85000; elapsed training 12.61 h
+*** Training started ***
+fraction_sl100_total85000_seed42: 50100/85000; elapsed training 12.88 h
+*** Training started ***
+fraction_sl100_total85000_seed42: 51100/85000; elapsed training 13.15 h
+*** Training started ***
+fraction_sl100_total85000_seed42: 52100/85000; elapsed training 13.42 h
+*** Training started ***
+fraction_sl100_total85000_seed42: 53100/85000; elapsed training 13.69 h
+*** Training started ***
+fraction_sl100_total85000_seed42: 54100/85000; elapsed training 13.96 h
+*** Training started ***
+fraction_sl100_total85000_seed42: 55100/85000; elapsed training 14.23 h
+*** Training started ***
+Resuming at update 55100
+*** Training started ***
+fraction_sl100_total85000_seed42: 56100/85000; elapsed training 14.47 h
+*** Training started ***
+fraction_sl100_total85000_seed42: 57100/85000; elapsed training 14.71 h
+*** Training started ***
+fraction_sl100_total85000_seed42: 58100/85000; elapsed training 14.96 h
+*** Training started ***
+fraction_sl100_total85000_seed42: 59100/85000; elapsed training 15.19 h
+*** Training started ***
+fraction_sl100_total85000_seed42: 60100/85000; elapsed training 15.41 h
+*** Training started ***
+fraction_sl100_total85000_seed42: 61100/85000; elapsed training 15.64 h
+*** Training started ***
+fraction_sl100_total85000_seed42: 62100/85000; elapsed training 15.86 h
+*** Training started ***
+fraction_sl100_total85000_seed42: 63100/85000; elapsed training 16.09 h
+*** Training started ***
+fraction_sl100_total85000_seed42: 64100/85000; elapsed training 16.31 h
+*** Training started ***
+fraction_sl100_total85000_seed42: 65100/85000; elapsed training 16.54 h
+*** Training started ***
+Resuming at update 65100
+*** Training started ***
+fraction_sl100_total85000_seed42: 66100/85000; elapsed training 16.71 h
+*** Training started ***
+fraction_sl100_total85000_seed42: 67100/85000; elapsed training 16.88 h
+*** Training started ***
+fraction_sl100_total85000_seed42: 68100/85000; elapsed training 17.06 h
+*** Training started ***
+fraction_sl100_total85000_seed42: 69100/85000; elapsed training 17.23 h
+*** Training started ***
+fraction_sl100_total85000_seed42: 70100/85000; elapsed training 17.41 h
+*** Training started ***
+fraction_sl100_total85000_seed42: 71100/85000; elapsed training 17.58 h
+*** Training started ***
+fraction_sl100_total85000_seed42: 72100/85000; elapsed training 17.75 h
+*** Training started ***
+fraction_sl100_total85000_seed42: 73100/85000; elapsed training 17.92 h
+*** Training started ***
+fraction_sl100_total85000_seed42: 74100/85000; elapsed training 18.09 h
+*** Training started ***
+fraction_sl100_total85000_seed42: 75100/85000; elapsed training 18.27 h
+*** Training started ***
+fraction_sl100_total85000_seed42: 76100/85000; elapsed training 18.44 h
+*** Training started ***
+fraction_sl100_total85000_seed42: 77100/85000; elapsed training 18.61 h
+*** Training started ***
+fraction_sl100_total85000_seed42: 78100/85000; elapsed training 18.78 h
+*** Training started ***
+fraction_sl100_total85000_seed42: 79100/85000; elapsed training 18.95 h
+*** Training started ***
+fraction_sl100_total85000_seed42: 80100/85000; elapsed training 19.12 h
+*** Training started ***
+fraction_sl100_total85000_seed42: 81100/85000; elapsed training 19.30 h
+*** Training started ***
+fraction_sl100_total85000_seed42: 82100/85000; elapsed training 19.47 h
+*** Training started ***
+fraction_sl100_total85000_seed42: 83100/85000; elapsed training 19.64 h
+*** Training started ***
+fraction_sl100_total85000_seed42: 84100/85000; elapsed training 19.81 h
+*** Training started ***
+fraction_sl100_total85000_seed42: 85000/85000; elapsed training 19.96 h
+Saved C:\Users\SWIMS\Downloads\SSLISAC-main\final-report-work\methods\results\course_completion_20261109-133839\stage2_fraction_models\fraction_sl100_total85000_seed42.npz

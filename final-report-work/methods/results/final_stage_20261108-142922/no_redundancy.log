@@ -1,0 +1,143 @@
+Pool C:\Users\SWIMS\Downloads\SSLISAC-main\final-report-work\methods\data\scenes_cpu_th10_train.pt: 2000 scenes; eval C:\Users\SWIMS\Downloads\SSLISAC-main\final-report-work\methods\data\scenes_cpu_th10_val.pt: 500 scenes; settings {'n_init': 10, 'per_round': 5, 'budget': 60, 'sl_steps': 100, 'ul_steps': 100, 'batch': 64, 'n_cand': 300, 'n_eval': 500, 'tau': 0.001}
+*** rule weak, seed 0 ***
+  [weak s0] labels   10  calib err 0.3399 (after SL 0.6713)  median pos err  0.423 m  pos RMSE  16.396 m  angle RMSE  1.229 deg  (acq   0.0s, train   3.0s)
+  [weak s0] labels   15  calib err 0.2174 (after SL 0.3410)  median pos err  0.317 m  pos RMSE  16.095 m  angle RMSE  1.148 deg  (acq   2.3s, train   1.9s)
+  [weak s0] labels   20  calib err 0.1860 (after SL 0.2387)  median pos err  0.324 m  pos RMSE  15.350 m  angle RMSE  1.138 deg  (acq   2.2s, train   2.2s)
+  [weak s0] labels   25  calib err 0.1904 (after SL 0.2079)  median pos err  0.331 m  pos RMSE  16.059 m  angle RMSE  1.189 deg  (acq   2.3s, train   2.2s)
+  [weak s0] labels   30  calib err 0.1493 (after SL 0.2098)  median pos err  0.319 m  pos RMSE  16.274 m  angle RMSE  1.292 deg  (acq   2.3s, train   2.3s)
+  [weak s0] labels   35  calib err 0.1638 (after SL 0.1662)  median pos err  0.312 m  pos RMSE  15.543 m  angle RMSE  1.343 deg  (acq   2.3s, train   2.3s)
+  [weak s0] labels   40  calib err 0.1256 (after SL 0.1904)  median pos err  0.321 m  pos RMSE  15.652 m  angle RMSE  1.289 deg  (acq   2.4s, train   2.1s)
+  [weak s0] labels   45  calib err 0.1486 (after SL 0.1386)  median pos err  0.315 m  pos RMSE  15.806 m  angle RMSE  1.344 deg  (acq   2.4s, train   2.3s)
+  [weak s0] labels   50  calib err 0.1505 (after SL 0.1667)  median pos err  0.319 m  pos RMSE  15.385 m  angle RMSE  1.287 deg  (acq   2.4s, train   2.1s)
+  [weak s0] labels   55  calib err 0.1499 (after SL 0.1763)  median pos err  0.315 m  pos RMSE  15.806 m  angle RMSE  1.345 deg  (acq   2.5s, train   2.1s)
+  [weak s0] labels   60  calib err 0.1370 (after SL 0.1889)  median pos err  0.315 m  pos RMSE  15.807 m  angle RMSE  1.344 deg  (acq   2.5s, train   2.1s)
+  saved C:\Users\SWIMS\Downloads\SSLISAC-main\final-report-work\methods\results\active_weak_noRC_s0_th10_cpu_20261108-145259.npz
+*** rule full, seed 0 ***
+  [full s0] labels   10  calib err 0.3399 (after SL 0.6713)  median pos err  0.423 m  pos RMSE  16.396 m  angle RMSE  1.229 deg  (acq   0.0s, train   2.0s)
+  [full s0] labels   15  calib err 0.2174 (after SL 0.3410)  median pos err  0.317 m  pos RMSE  16.095 m  angle RMSE  1.148 deg  (acq   2.4s, train   2.1s)
+  [full s0] labels   20  calib err 0.1860 (after SL 0.2387)  median pos err  0.324 m  pos RMSE  15.350 m  angle RMSE  1.138 deg  (acq   2.4s, train   2.0s)
+  [full s0] labels   25  calib err 0.1904 (after SL 0.2079)  median pos err  0.331 m  pos RMSE  16.059 m  angle RMSE  1.189 deg  (acq   2.5s, train   2.0s)
+  [full s0] labels   30  calib err 0.1493 (after SL 0.2098)  median pos err  0.319 m  pos RMSE  16.274 m  angle RMSE  1.292 deg  (acq   2.5s, train   2.0s)
+  [full s0] labels   35  calib err 0.1638 (after SL 0.1662)  median pos err  0.312 m  pos RMSE  15.543 m  angle RMSE  1.343 deg  (acq   2.5s, train   2.0s)
+  [full s0] labels   40  calib err 0.1256 (after SL 0.1904)  median pos err  0.321 m  pos RMSE  15.652 m  angle RMSE  1.289 deg  (acq   2.6s, train   2.0s)
+  [full s0] labels   45  calib err 0.1486 (after SL 0.1386)  median pos err  0.315 m  pos RMSE  15.806 m  angle RMSE  1.344 deg  (acq   2.6s, train   2.1s)
+  [full s0] labels   50  calib err 0.1505 (after SL 0.1667)  median pos err  0.319 m  pos RMSE  15.385 m  angle RMSE  1.287 deg  (acq   2.6s, train   2.1s)
+  [full s0] labels   55  calib err 0.1499 (after SL 0.1763)  median pos err  0.315 m  pos RMSE  15.806 m  angle RMSE  1.345 deg  (acq   2.6s, train   2.1s)
+  [full s0] labels   60  calib err 0.1370 (after SL 0.1889)  median pos err  0.315 m  pos RMSE  15.807 m  angle RMSE  1.344 deg  (acq   2.7s, train   2.1s)
+  saved C:\Users\SWIMS\Downloads\SSLISAC-main\final-report-work\methods\results\active_full_noRC_s0_th10_cpu_20261108-145259.npz
+*** rule weak, seed 1 ***
+  [weak s1] labels   10  calib err 0.3318 (after SL 0.6788)  median pos err  0.465 m  pos RMSE  14.395 m  angle RMSE  1.499 deg  (acq   0.0s, train   2.0s)
+  [weak s1] labels   15  calib err 0.1576 (after SL 0.3089)  median pos err  0.335 m  pos RMSE  15.323 m  angle RMSE  1.520 deg  (acq   2.2s, train   2.1s)
+  [weak s1] labels   20  calib err 0.1529 (after SL 0.1791)  median pos err  0.312 m  pos RMSE  13.717 m  angle RMSE  1.347 deg  (acq   2.2s, train   2.0s)
+  [weak s1] labels   25  calib err 0.1266 (after SL 0.1611)  median pos err  0.312 m  pos RMSE  16.024 m  angle RMSE  1.522 deg  (acq   2.3s, train   2.0s)
+  [weak s1] labels   30  calib err 0.1260 (after SL 0.1396)  median pos err  0.315 m  pos RMSE  17.512 m  angle RMSE  1.499 deg  (acq   2.3s, train   2.1s)
+  [weak s1] labels   35  calib err 0.1513 (after SL 0.1357)  median pos err  0.319 m  pos RMSE  15.806 m  angle RMSE  1.344 deg  (acq   2.3s, train   2.1s)
+  [weak s1] labels   40  calib err 0.1520 (after SL 0.1561)  median pos err  0.319 m  pos RMSE  17.522 m  angle RMSE  1.198 deg  (acq   2.3s, train   2.1s)
+  [weak s1] labels   45  calib err 0.1465 (after SL 0.1574)  median pos err  0.317 m  pos RMSE  13.716 m  angle RMSE  1.346 deg  (acq   2.4s, train   2.1s)
+  [weak s1] labels   50  calib err 0.1480 (after SL 0.1729)  median pos err  0.315 m  pos RMSE  15.806 m  angle RMSE  1.344 deg  (acq   2.4s, train   2.3s)
+  [weak s1] labels   55  calib err 0.1283 (after SL 0.1547)  median pos err  0.317 m  pos RMSE  15.806 m  angle RMSE  1.344 deg  (acq   2.4s, train   2.3s)
+  [weak s1] labels   60  calib err 0.1474 (after SL 0.1349)  median pos err  0.319 m  pos RMSE  15.805 m  angle RMSE  1.343 deg  (acq   2.5s, train   2.4s)
+  saved C:\Users\SWIMS\Downloads\SSLISAC-main\final-report-work\methods\results\active_weak_noRC_s1_th10_cpu_20261108-145259.npz
+*** rule full, seed 1 ***
+  [full s1] labels   10  calib err 0.3318 (after SL 0.6788)  median pos err  0.465 m  pos RMSE  14.395 m  angle RMSE  1.499 deg  (acq   0.0s, train   2.1s)
+  [full s1] labels   15  calib err 0.1576 (after SL 0.3089)  median pos err  0.335 m  pos RMSE  15.323 m  angle RMSE  1.520 deg  (acq   2.4s, train   2.1s)
+  [full s1] labels   20  calib err 0.1529 (after SL 0.1791)  median pos err  0.312 m  pos RMSE  13.717 m  angle RMSE  1.347 deg  (acq   2.5s, train   2.2s)
+  [full s1] labels   25  calib err 0.1266 (after SL 0.1611)  median pos err  0.312 m  pos RMSE  16.024 m  angle RMSE  1.522 deg  (acq   2.4s, train   2.1s)
+  [full s1] labels   30  calib err 0.1260 (after SL 0.1396)  median pos err  0.315 m  pos RMSE  17.512 m  angle RMSE  1.499 deg  (acq   2.5s, train   2.0s)
+  [full s1] labels   35  calib err 0.1513 (after SL 0.1357)  median pos err  0.319 m  pos RMSE  15.806 m  angle RMSE  1.344 deg  (acq   2.5s, train   2.0s)
+  [full s1] labels   40  calib err 0.1520 (after SL 0.1561)  median pos err  0.319 m  pos RMSE  17.522 m  angle RMSE  1.198 deg  (acq   2.6s, train   2.0s)
+  [full s1] labels   45  calib err 0.1465 (after SL 0.1574)  median pos err  0.317 m  pos RMSE  13.716 m  angle RMSE  1.346 deg  (acq   2.6s, train   2.1s)
+  [full s1] labels   50  calib err 0.1480 (after SL 0.1729)  median pos err  0.315 m  pos RMSE  15.806 m  angle RMSE  1.344 deg  (acq   2.8s, train   2.1s)
+  [full s1] labels   55  calib err 0.1283 (after SL 0.1547)  median pos err  0.317 m  pos RMSE  15.806 m  angle RMSE  1.344 deg  (acq   2.7s, train   2.1s)
+  [full s1] labels   60  calib err 0.1474 (after SL 0.1349)  median pos err  0.319 m  pos RMSE  15.805 m  angle RMSE  1.343 deg  (acq   2.8s, train   2.0s)
+  saved C:\Users\SWIMS\Downloads\SSLISAC-main\final-report-work\methods\results\active_full_noRC_s1_th10_cpu_20261108-145259.npz
+*** rule weak, seed 2 ***
+  [weak s2] labels   10  calib err 0.2549 (after SL 0.6584)  median pos err  0.407 m  pos RMSE  14.715 m  angle RMSE  1.327 deg  (acq   0.0s, train   2.0s)
+  [weak s2] labels   15  calib err 0.1474 (after SL 0.2568)  median pos err  0.313 m  pos RMSE  15.807 m  angle RMSE  1.348 deg  (acq   2.2s, train   2.4s)
+  [weak s2] labels   20  calib err 0.1583 (after SL 0.1508)  median pos err  0.319 m  pos RMSE  15.650 m  angle RMSE  1.287 deg  (acq   2.2s, train   2.1s)
+  [weak s2] labels   25  calib err 0.1339 (after SL 0.1589)  median pos err  0.317 m  pos RMSE  17.172 m  angle RMSE  1.262 deg  (acq   2.2s, train   2.2s)
+  [weak s2] labels   30  calib err 0.1495 (after SL 0.1319)  median pos err  0.323 m  pos RMSE  15.652 m  angle RMSE  1.289 deg  (acq   2.3s, train   2.3s)
+  [weak s2] labels   35  calib err 0.1523 (after SL 0.1515)  median pos err  0.317 m  pos RMSE  15.802 m  angle RMSE  1.337 deg  (acq   2.3s, train   2.1s)
+  [weak s2] labels   40  calib err 0.1461 (after SL 0.1543)  median pos err  0.318 m  pos RMSE  15.805 m  angle RMSE  1.340 deg  (acq   2.4s, train   2.0s)
+  [weak s2] labels   45  calib err 0.1567 (after SL 0.1481)  median pos err  0.315 m  pos RMSE  14.587 m  angle RMSE  1.337 deg  (acq   2.4s, train   2.1s)
+  [weak s2] labels   50  calib err 0.1403 (after SL 0.1623)  median pos err  0.313 m  pos RMSE  13.995 m  angle RMSE  1.358 deg  (acq   2.4s, train   2.0s)
+  [weak s2] labels   55  calib err 0.2160 (after SL 0.1441)  median pos err  0.317 m  pos RMSE  14.288 m  angle RMSE  1.356 deg  (acq   2.4s, train   2.1s)
+  [weak s2] labels   60  calib err 0.1804 (after SL 0.2205)  median pos err  0.319 m  pos RMSE  15.806 m  angle RMSE  1.344 deg  (acq   2.5s, train   2.1s)
+  saved C:\Users\SWIMS\Downloads\SSLISAC-main\final-report-work\methods\results\active_weak_noRC_s2_th10_cpu_20261108-145259.npz
+*** rule full, seed 2 ***
+  [full s2] labels   10  calib err 0.2549 (after SL 0.6584)  median pos err  0.407 m  pos RMSE  14.715 m  angle RMSE  1.327 deg  (acq   0.0s, train   2.0s)
+  [full s2] labels   15  calib err 0.1474 (after SL 0.2568)  median pos err  0.313 m  pos RMSE  15.807 m  angle RMSE  1.348 deg  (acq   2.4s, train   2.1s)
+  [full s2] labels   20  calib err 0.1583 (after SL 0.1508)  median pos err  0.319 m  pos RMSE  15.650 m  angle RMSE  1.287 deg  (acq   2.4s, train   2.1s)
+  [full s2] labels   25  calib err 0.1339 (after SL 0.1589)  median pos err  0.317 m  pos RMSE  17.172 m  angle RMSE  1.262 deg  (acq   2.4s, train   2.1s)
+  [full s2] labels   30  calib err 0.1495 (after SL 0.1319)  median pos err  0.323 m  pos RMSE  15.652 m  angle RMSE  1.289 deg  (acq   2.5s, train   2.2s)
+  [full s2] labels   35  calib err 0.1523 (after SL 0.1515)  median pos err  0.317 m  pos RMSE  15.802 m  angle RMSE  1.337 deg  (acq   2.5s, train   2.3s)
+  [full s2] labels   40  calib err 0.1461 (after SL 0.1543)  median pos err  0.318 m  pos RMSE  15.805 m  angle RMSE  1.340 deg  (acq   2.6s, train   2.2s)
+  [full s2] labels   45  calib err 0.1567 (after SL 0.1481)  median pos err  0.315 m  pos RMSE  14.587 m  angle RMSE  1.337 deg  (acq   2.6s, train   2.3s)
+  [full s2] labels   50  calib err 0.1403 (after SL 0.1623)  median pos err  0.313 m  pos RMSE  13.995 m  angle RMSE  1.358 deg  (acq   2.7s, train   2.2s)
+  [full s2] labels   55  calib err 0.2160 (after SL 0.1441)  median pos err  0.317 m  pos RMSE  14.288 m  angle RMSE  1.356 deg  (acq   2.7s, train   2.3s)
+  [full s2] labels   60  calib err 0.1804 (after SL 0.2205)  median pos err  0.319 m  pos RMSE  15.806 m  angle RMSE  1.344 deg  (acq   2.8s, train   2.2s)
+  saved C:\Users\SWIMS\Downloads\SSLISAC-main\final-report-work\methods\results\active_full_noRC_s2_th10_cpu_20261108-145259.npz
+*** rule weak, seed 3 ***
+  [weak s3] labels   10  calib err 0.2251 (after SL 0.6433)  median pos err  0.406 m  pos RMSE  16.005 m  angle RMSE  1.476 deg  (acq   0.0s, train   2.0s)
+  [weak s3] labels   15  calib err 0.1538 (after SL 0.2064)  median pos err  0.317 m  pos RMSE  16.049 m  angle RMSE  1.356 deg  (acq   2.2s, train   2.2s)
+  [weak s3] labels   20  calib err 0.1422 (after SL 0.2249)  median pos err  0.317 m  pos RMSE  15.804 m  angle RMSE  1.343 deg  (acq   2.2s, train   2.2s)
+  [weak s3] labels   25  calib err 0.1683 (after SL 0.1884)  median pos err  0.330 m  pos RMSE  12.089 m  angle RMSE  1.282 deg  (acq   2.2s, train   2.1s)
+  [weak s3] labels   30  calib err 0.1614 (after SL 0.1953)  median pos err  0.338 m  pos RMSE  13.264 m  angle RMSE  1.299 deg  (acq   2.3s, train   2.1s)
+  [weak s3] labels   35  calib err 0.1505 (after SL 0.2055)  median pos err  0.339 m  pos RMSE  13.572 m  angle RMSE  1.301 deg  (acq   2.3s, train   2.0s)
+  [weak s3] labels   40  calib err 0.1495 (after SL 0.1649)  median pos err  0.327 m  pos RMSE  13.572 m  angle RMSE  1.300 deg  (acq   2.4s, train   2.1s)
+  [weak s3] labels   45  calib err 0.1654 (after SL 0.1502)  median pos err  0.336 m  pos RMSE  13.264 m  angle RMSE  1.299 deg  (acq   2.4s, train   2.1s)
+  [weak s3] labels   50  calib err 0.1657 (after SL 0.2002)  median pos err  0.325 m  pos RMSE  13.570 m  angle RMSE  1.298 deg  (acq   2.4s, train   2.1s)
+  [weak s3] labels   55  calib err 0.1471 (after SL 0.1594)  median pos err  0.324 m  pos RMSE  13.570 m  angle RMSE  1.298 deg  (acq   2.5s, train   2.1s)
+  [weak s3] labels   60  calib err 0.1632 (after SL 0.1511)  median pos err  0.323 m  pos RMSE  13.570 m  angle RMSE  1.299 deg  (acq   2.5s, train   2.1s)
+  saved C:\Users\SWIMS\Downloads\SSLISAC-main\final-report-work\methods\results\active_weak_noRC_s3_th10_cpu_20261108-145259.npz
+*** rule full, seed 3 ***
+  [full s3] labels   10  calib err 0.2251 (after SL 0.6433)  median pos err  0.406 m  pos RMSE  16.005 m  angle RMSE  1.476 deg  (acq   0.0s, train   2.0s)
+  [full s3] labels   15  calib err 0.1538 (after SL 0.2064)  median pos err  0.317 m  pos RMSE  16.049 m  angle RMSE  1.356 deg  (acq   2.4s, train   2.1s)
+  [full s3] labels   20  calib err 0.1422 (after SL 0.2249)  median pos err  0.317 m  pos RMSE  15.804 m  angle RMSE  1.343 deg  (acq   2.4s, train   2.1s)
+  [full s3] labels   25  calib err 0.1683 (after SL 0.1884)  median pos err  0.330 m  pos RMSE  12.089 m  angle RMSE  1.282 deg  (acq   2.5s, train   2.1s)
+  [full s3] labels   30  calib err 0.1614 (after SL 0.1953)  median pos err  0.338 m  pos RMSE  13.264 m  angle RMSE  1.299 deg  (acq   2.5s, train   2.1s)
+  [full s3] labels   35  calib err 0.1505 (after SL 0.2055)  median pos err  0.339 m  pos RMSE  13.572 m  angle RMSE  1.301 deg  (acq   2.6s, train   2.0s)
+  [full s3] labels   40  calib err 0.1495 (after SL 0.1649)  median pos err  0.327 m  pos RMSE  13.572 m  angle RMSE  1.300 deg  (acq   2.7s, train   2.1s)
+  [full s3] labels   45  calib err 0.1654 (after SL 0.1502)  median pos err  0.336 m  pos RMSE  13.264 m  angle RMSE  1.299 deg  (acq   2.6s, train   2.1s)
+  [full s3] labels   50  calib err 0.1657 (after SL 0.2002)  median pos err  0.325 m  pos RMSE  13.570 m  angle RMSE  1.298 deg  (acq   2.7s, train   2.1s)
+  [full s3] labels   55  calib err 0.1471 (after SL 0.1594)  median pos err  0.324 m  pos RMSE  13.570 m  angle RMSE  1.298 deg  (acq   2.7s, train   2.2s)
+  [full s3] labels   60  calib err 0.1632 (after SL 0.1511)  median pos err  0.323 m  pos RMSE  13.570 m  angle RMSE  1.299 deg  (acq   2.7s, train   2.3s)
+  saved C:\Users\SWIMS\Downloads\SSLISAC-main\final-report-work\methods\results\active_full_noRC_s3_th10_cpu_20261108-145259.npz
+*** rule weak, seed 4 ***
+  [weak s4] labels   10  calib err 0.2820 (after SL 0.6609)  median pos err  0.372 m  pos RMSE  15.571 m  angle RMSE  1.088 deg  (acq   0.0s, train   1.9s)
+  [weak s4] labels   15  calib err 0.1506 (after SL 0.2965)  median pos err  0.317 m  pos RMSE  15.807 m  angle RMSE  1.348 deg  (acq   2.2s, train   2.3s)
+  [weak s4] labels   20  calib err 0.1583 (after SL 0.1829)  median pos err  0.315 m  pos RMSE  16.127 m  angle RMSE  1.290 deg  (acq   2.2s, train   2.1s)
+  [weak s4] labels   25  calib err 0.1480 (after SL 0.1758)  median pos err  0.319 m  pos RMSE  13.750 m  angle RMSE  1.355 deg  (acq   2.2s, train   2.0s)
+  [weak s4] labels   30  calib err 0.1665 (after SL 0.1591)  median pos err  0.317 m  pos RMSE  15.651 m  angle RMSE  1.288 deg  (acq   2.3s, train   2.1s)
+  [weak s4] labels   35  calib err 0.1268 (after SL 0.1798)  median pos err  0.319 m  pos RMSE  15.650 m  angle RMSE  1.287 deg  (acq   2.3s, train   2.0s)
+  [weak s4] labels   40  calib err 0.1489 (after SL 0.1438)  median pos err  0.319 m  pos RMSE  13.572 m  angle RMSE  1.300 deg  (acq   2.4s, train   2.0s)
+  [weak s4] labels   45  calib err 0.1491 (after SL 0.1608)  median pos err  0.315 m  pos RMSE  13.751 m  angle RMSE  1.355 deg  (acq   2.4s, train   2.0s)
+  [weak s4] labels   50  calib err 0.1384 (after SL 0.1750)  median pos err  0.317 m  pos RMSE  16.022 m  angle RMSE  1.519 deg  (acq   2.5s, train   2.0s)
+  [weak s4] labels   55  calib err 0.1392 (after SL 0.1646)  median pos err  0.315 m  pos RMSE  15.650 m  angle RMSE  1.287 deg  (acq   2.5s, train   2.1s)
+  [weak s4] labels   60  calib err 0.1352 (after SL 0.1595)  median pos err  0.317 m  pos RMSE  15.871 m  angle RMSE  1.471 deg  (acq   2.6s, train   2.1s)
+  saved C:\Users\SWIMS\Downloads\SSLISAC-main\final-report-work\methods\results\active_weak_noRC_s4_th10_cpu_20261108-145259.npz
+*** rule full, seed 4 ***
+  [full s4] labels   10  calib err 0.2820 (after SL 0.6609)  median pos err  0.372 m  pos RMSE  15.571 m  angle RMSE  1.088 deg  (acq   0.0s, train   2.0s)
+  [full s4] labels   15  calib err 0.1506 (after SL 0.2965)  median pos err  0.317 m  pos RMSE  15.807 m  angle RMSE  1.348 deg  (acq   2.4s, train   2.0s)
+  [full s4] labels   20  calib err 0.1583 (after SL 0.1829)  median pos err  0.315 m  pos RMSE  16.127 m  angle RMSE  1.290 deg  (acq   2.4s, train   2.1s)
+  [full s4] labels   25  calib err 0.1480 (after SL 0.1758)  median pos err  0.319 m  pos RMSE  13.750 m  angle RMSE  1.355 deg  (acq   2.5s, train   2.1s)
+  [full s4] labels   30  calib err 0.1665 (after SL 0.1591)  median pos err  0.317 m  pos RMSE  15.651 m  angle RMSE  1.288 deg  (acq   2.5s, train   2.1s)
+  [full s4] labels   35  calib err 0.1268 (after SL 0.1798)  median pos err  0.319 m  pos RMSE  15.650 m  angle RMSE  1.287 deg  (acq   2.5s, train   2.1s)
+  [full s4] labels   40  calib err 0.1489 (after SL 0.1438)  median pos err  0.319 m  pos RMSE  13.572 m  angle RMSE  1.300 deg  (acq   2.6s, train   2.1s)
+  [full s4] labels   45  calib err 0.1491 (after SL 0.1608)  median pos err  0.315 m  pos RMSE  13.751 m  angle RMSE  1.355 deg  (acq   2.6s, train   2.0s)
+  [full s4] labels   50  calib err 0.1384 (after SL 0.1750)  median pos err  0.317 m  pos RMSE  16.022 m  angle RMSE  1.519 deg  (acq   2.7s, train   2.1s)
+  [full s4] labels   55  calib err 0.1392 (after SL 0.1646)  median pos err  0.315 m  pos RMSE  15.650 m  angle RMSE  1.287 deg  (acq   2.7s, train   2.1s)
+  [full s4] labels   60  calib err 0.1352 (after SL 0.1595)  median pos err  0.317 m  pos RMSE  15.871 m  angle RMSE  1.471 deg  (acq   2.7s, train   2.1s)
+  saved C:\Users\SWIMS\Downloads\SSLISAC-main\final-report-work\methods\results\active_full_noRC_s4_th10_cpu_20261108-145259.npz
+
+rule         seed  labels  calib err (start -> end)  pos RMSE [m]  acq time [s]
+weak            0      60  0.3399 -> 0.1370            15.807         23.5
+full            0      60  0.3399 -> 0.1370            15.807         25.5
+weak            1      60  0.3318 -> 0.1474            15.805         23.3
+full            1      60  0.3318 -> 0.1474            15.805         25.9
+weak            2      60  0.2549 -> 0.1804            15.806         23.4
+full            2      60  0.2549 -> 0.1804            15.806         25.6
+weak            3      60  0.2251 -> 0.1632            13.570         23.4
+full            3      60  0.2251 -> 0.1632            13.570         25.7
+weak            4      60  0.2820 -> 0.1352            15.871         23.5
+full            4      60  0.2820 -> 0.1352            15.871         25.7
