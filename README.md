@@ -10,7 +10,7 @@ the 85,000-update reproductions, active-calibration controls, hardware/coverage
 study, independent evaluation, supervised-fraction sweep, SNR transfer tests,
 and independent localization outputs.
 
-The final report PDF, presentation and demo still require completion and review.
+The updated [final report PDF](reports/final/final_report.pdf) and [Overleaf source package](reports/final/final_report_source.zip) include the completed experiments. Team contribution and AI-assistance disclosures require review. The presentation and demo remain pending.
 The report in `reports/updated_report.tex` is the updated midterm draft.
 The final submission deadline is November 27, 2026.
 
